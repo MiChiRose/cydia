@@ -1,6 +1,6 @@
 Package: com.michirose.telegraphica.background
 Name: Telegraphica Background
-Version: 0.1.0-20
+Version: 0.1.0-22
 Architecture: iphoneos-arm
 Description: Background message reception for Telegraphica on jailbroken iOS 6.
  Keeps only Telegraphica connected and starts its background service automatically.
@@ -8,9 +8,9 @@ Description: Background message reception for Telegraphica on jailbroken iOS 6.
 Maintainer: Telegraphica
 Section: Utilities
 Depends: firmware (>= 6.0), firmware (<< 7.0), coreutils, system-cmds
-Filename: ./telegraphica-background_0.1.0-20_iphoneos-arm.deb
-Size: 10780
-SHA256: 882e937476b510206cd77385805435de5e61cfa69cc08671bbcd3a35dd545fdc
-SHA1: 684810d56b035bd4c05696b93380898e5e59f1fa
-MD5sum: ae17c09dc7e5a64de0c442d9b86df270
+Filename: ./telegraphica-background_0.1.0-22_iphoneos-arm.deb
+Size: 13104
+SHA256: dc4eac24cddae35053812735ec808dd636c12ada45b9f2174daca7d4ef50cf48
+SHA1: b346eae33d09ee25da8348f188a294ac6f6e25c0
+MD5sum: f6c5128571eb7c917a6885b591615e87
 

@@ -7,10 +7,10 @@ Architectures: iphoneos-arm
 Components: main
 Description: Experimental Telegraphica packages for jailbroken iOS 6
 MD5Sum:
- 8086ecd3159ce2573c84754cd689f4c1 722 Packages
- a9c93f64c80d052498709aca76ed7e77 464 Packages.gz
- 63cf3bd4efb99beacfed1e6d6d165f9e 522 Packages.bz2
+ 5d4b90fb7921aa8bbd9f39d426bdacbf 722 Packages
+ 5b74b45803965a996880559611973e49 464 Packages.gz
+ 3930108119d2f3ac248c1e218454d3e2 518 Packages.bz2
 SHA256:
- ab4aada18d59fd53fd62c6112b5158029398f256f50b9069dac7d6d97092a524 722 Packages
- cdb85a5763671f1441e27e1ed7e6ac5906209dff96e6283155bdf5ccd2ce6d97 464 Packages.gz
- 8ab7a730cf2d37dd1771c9f9521f62de25e80c2c298b9e6b3b84cf56856232eb 522 Packages.bz2
+ 88d219aa83ff92a24b11084abf395abe12a00d209c230cac9764035ec8992762 722 Packages
+ c00e4db6d041de1d664bc9eae68cee6144a68c9581ef04803465519f7e6418fa 464 Packages.gz
+ 1f69a34a1da8736ce95d161104ec0d653cf7f36110aaee728db81036a584680e 518 Packages.bz2
