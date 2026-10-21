@@ -1,0 +1,16 @@
+Origin: Telegraphica
+Label: Telegraphica Testing
+Suite: stable
+Version: 0.1
+Codename: testing
+Architectures: iphoneos-arm
+Components: main
+Description: Experimental Telegraphica packages for jailbroken iOS 6
+MD5Sum:
+ 8086ecd3159ce2573c84754cd689f4c1 722 Packages
+ a9c93f64c80d052498709aca76ed7e77 464 Packages.gz
+ 63cf3bd4efb99beacfed1e6d6d165f9e 522 Packages.bz2
+SHA256:
+ ab4aada18d59fd53fd62c6112b5158029398f256f50b9069dac7d6d97092a524 722 Packages
+ cdb85a5763671f1441e27e1ed7e6ac5906209dff96e6283155bdf5ccd2ce6d97 464 Packages.gz
+ 8ab7a730cf2d37dd1771c9f9521f62de25e80c2c298b9e6b3b84cf56856232eb 522 Packages.bz2
