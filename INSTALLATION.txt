@@ -1,0 +1,26 @@
+Telegraphica 0.1.0 beta 1 — build 38, Cydia revision 0.1.0~beta1-38.3
+
+Requires jailbreak and AppSync Unified compatible with iOS 6.
+Tested combination: iPhone 4s / iOS 6.1.3. Cydia update and preserved login verified.
+Fresh physical installation and other ARMv7 devices have not yet been verified.
+
+Cydia: Manage > Sources > Edit > Add:
+https://michirose.github.io/telegraphica-cydia/
+Refresh, select Telegraphica (full application), Install.
+Telegraphica Background installs/starts automatically. No terminal required.
+AppSync must already be available from your trusted package source.
+Open the app and log in to your own Telegram account.
+
+Do NOT delete an existing app before updating. Removing the Cydia installer
+package preserves the app/account; deleting its Home-screen icon may erase data.
+IPA alone requires a compatible jailbreak IPA installer with AppSync.
+Safari downloading an IPA is not an installation method. Stock iOS is unsupported.
+
+The packages include no session, messages, contacts, cache, database keys,
+signing keys, provisioning profiles or embedded local Telegram API configuration.
+Application configuration is obtained over HTTPS. Every user logs in independently.
+
+Real calls and in-app proxy settings are not implemented. Music search has known
+issues. Background notifications use a jailbreak companion; battery behavior is
+experimental. Send feedback with build/device/iOS/steps/error, without private
+chat contents, phone numbers, codes or passwords.

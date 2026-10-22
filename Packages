@@ -1,6 +1,24 @@
+Package: com.michirose.telegraphica.ios
+Name: Telegraphica
+Version: 0.1.0~beta1-38.3
+Architecture: iphoneos-arm
+Description: Telegraphica beta messenger for jailbroken iOS 6.
+ Installs the complete application in a normal iOS application container.
+ Updates preserve account data. Requires compatible AppSync Unified.
+ Removing this installer package preserves the installed app and account data.
+ Remove the app from the Home screen only if you intend to delete its data.
+Maintainer: Telegraphica
+Section: Networking
+Depends: firmware (>= 6.0), firmware (<< 7.0), net.angelxwind.appsyncunified, com.michirose.telegraphica.background (>= 0.1.0-23), coreutils, system-cmds
+Filename: ./telegraphica_0.1.0-beta1-38.3_iphoneos-arm.deb
+Size: 10559668
+SHA256: 52eb140b082a711d2fe7f38ff5389b7114343a0c84760c463762c132f3af5eb8
+SHA1: d89e2baff5fdc19f6c510c142b17145bcc4154e3
+MD5sum: 48f700c0bbcb776eb92e272c223b4d50
+
 Package: com.michirose.telegraphica.background
 Name: Telegraphica Background
-Version: 0.1.0-22
+Version: 0.1.0-23
 Architecture: iphoneos-arm
 Description: Background message reception for Telegraphica on jailbroken iOS 6.
  Keeps only Telegraphica connected and starts its background service automatically.
@@ -8,9 +26,9 @@ Description: Background message reception for Telegraphica on jailbroken iOS 6.
 Maintainer: Telegraphica
 Section: Utilities
 Depends: firmware (>= 6.0), firmware (<< 7.0), coreutils, system-cmds
-Filename: ./telegraphica-background_0.1.0-22_iphoneos-arm.deb
-Size: 13104
-SHA256: dc4eac24cddae35053812735ec808dd636c12ada45b9f2174daca7d4ef50cf48
-SHA1: b346eae33d09ee25da8348f188a294ac6f6e25c0
-MD5sum: f6c5128571eb7c917a6885b591615e87
+Filename: ./telegraphica-background_0.1.0-23_iphoneos-arm.deb
+Size: 13172
+SHA256: 7a3197c24bfe974677507e02cd72561c7ee859311a3ef63fbf702fc302125201
+SHA1: 9ed1b2f11451c592f3fcf39db04cf8e82ab5352f
+MD5sum: 67752e4618ae3aa4b9527996b3add46a
 
