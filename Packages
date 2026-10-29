@@ -1,6 +1,6 @@
 Package: com.michirose.telegraphica.ios
 Name: Telegraphica
-Version: 0.1.0~beta1-38.3
+Version: 0.1.0~beta1-38.4
 Architecture: iphoneos-arm
 Description: Telegraphica beta messenger for jailbroken iOS 6.
  Installs the complete application in a normal iOS application container.
@@ -9,26 +9,26 @@ Description: Telegraphica beta messenger for jailbroken iOS 6.
  Remove the app from the Home screen only if you intend to delete its data.
 Maintainer: Telegraphica
 Section: Networking
-Depends: firmware (>= 6.0), firmware (<< 7.0), net.angelxwind.appsyncunified, com.michirose.telegraphica.background (>= 0.1.0-23), coreutils, system-cmds
-Filename: ./telegraphica_0.1.0-beta1-38.3_iphoneos-arm.deb
-Size: 10559668
-SHA256: 52eb140b082a711d2fe7f38ff5389b7114343a0c84760c463762c132f3af5eb8
-SHA1: d89e2baff5fdc19f6c510c142b17145bcc4154e3
-MD5sum: 48f700c0bbcb776eb92e272c223b4d50
+Depends: firmware (>= 6.0), firmware (<< 7.0), net.angelxwind.appsyncunified, com.michirose.telegraphica.background (>= 0.1.0-24), coreutils, system-cmds
+Filename: ./telegraphica_0.1.0-beta1-38.4_iphoneos-arm.deb
+Size: 10561018
+SHA256: 82f3c68dc0ad0d9b64862a656e5fbb4e5286ffa6c5281aed55a6a118ff77fadc
+SHA1: 5b72e9bbcbb85a5c3240d124ac3aa27fd988ebd7
+MD5sum: 176e7c724f2d920a75a3a22f1c5b834c
 
 Package: com.michirose.telegraphica.background
 Name: Telegraphica Background
-Version: 0.1.0-23
+Version: 0.1.0-24
 Architecture: iphoneos-arm
 Description: Background message reception for Telegraphica on jailbroken iOS 6.
  Keeps only Telegraphica connected and starts its background service automatically.
- The Telegraphica application must already be installed for this development package.
+ Waits safely for the full Telegraphica installer when the app is not installed yet.
 Maintainer: Telegraphica
 Section: Utilities
 Depends: firmware (>= 6.0), firmware (<< 7.0), coreutils, system-cmds
-Filename: ./telegraphica-background_0.1.0-23_iphoneos-arm.deb
-Size: 13172
-SHA256: 7a3197c24bfe974677507e02cd72561c7ee859311a3ef63fbf702fc302125201
-SHA1: 9ed1b2f11451c592f3fcf39db04cf8e82ab5352f
-MD5sum: 67752e4618ae3aa4b9527996b3add46a
+Filename: ./telegraphica-background_0.1.0-24_iphoneos-arm.deb
+Size: 14454
+SHA256: d5115f800da4756ad02a080ed9c201c5907d78039d55c972f40fb4349fb9ec2d
+SHA1: 857c7d173bc909c3340821da0590867b4763c6b2
+MD5sum: ca6f7b6ec2263d99fadbf897de37f770
 

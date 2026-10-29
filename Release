@@ -7,10 +7,10 @@ Architectures: iphoneos-arm
 Components: main
 Description: Complete Telegraphica beta and automatic background companion
 MD5Sum:
- f29f7569c83906868b51b9155773fab4 1630 Packages
- 09d58ed7af22c56a2cc367f172908a9b 810 Packages.gz
- 06572fb71b5508ffe103d58d485d035b 900 Packages.bz2
+ 1429b45aa855257cad79e246d663b38d 1629 Packages
+ 4479102fe8acae511d54dee3660d69fe 812 Packages.gz
+ d3daea25e226a4ab668f8ce94bb0ebc3 898 Packages.bz2
 SHA256:
- ef10bb6ee17262b9552ffc90a62ebc93db2b359a74f92b9c4ab6667ed4336298 1630 Packages
- 6820d1e0fb29a2bff6f7e5391d1d1c6095fdfb463190dbe1a9822b7db33c6bb7 810 Packages.gz
- af67a3d038e28bb9793189b4c42ee3baa73d745c7d98ddfbf137ea54774e525c 900 Packages.bz2
+ f41135dc2658eafee3092b242cf2d57dff6ca46452c8861cb460370874aa14e9 1629 Packages
+ 75a6febbfd89de523949e033406a4c5ee5d7f1d35f216ae91229b83f9ad01081 812 Packages.gz
+ 24a5ebb70366090838afa0805337a29c9fed4e7400a8f7338be6f771c54d0f5c 898 Packages.bz2

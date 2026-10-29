@@ -1,7 +1,15 @@
-Telegraphica 0.1.0 beta 1 — build 38, Cydia revision 0.1.0~beta1-38.3
+Telegraphica 0.1.0 beta 1 — build 38, Cydia revision 0.1.0~beta1-38.4
+
+Installer hotfix38.4 fixes false app-location-unsupported/code7 on first install.
+Refresh Cydia sources and select Telegraphica0.1.0~beta1-38.4; companion24
+updates automatically. The app itself stays at build38, with unchanged IPA.
+If Cydia offers to retry the old half-configured38.3 first, choose Ignore
+(Temporary), refresh and upgrade Telegraphica; do not forcibly clear packages.
 
 Requires jailbreak and AppSync Unified compatible with iOS 6.
-Tested combination: iPhone 4s / iOS 6.1.3. Cydia update and preserved login verified.
+Tested app combination: iPhone 4s / iOS 6.1.3. The previous38.3 Cydia update
+and saved login were verified; current38.4 installer has native synthetic and
+iOS6.1 discovery checks. External first-install confirmation is pending.
 Fresh physical installation and other ARMv7 devices have not yet been verified.
 
 Cydia: Manage > Sources > Edit > Add:
