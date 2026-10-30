@@ -1,13 +1,14 @@
-Telegraphica 0.1.0 beta 1 — build39, Cydia package0.1.0~beta1-39
+Telegraphica 0.1.0 beta 1 — build40, Cydia package0.1.0~beta1-40
 
-New owner-provided knitted airplane logo throughout the iOS application:
-Home-screen/system notification icons, login, loading and settings screens.
+External white backdrop from39 removed. System icons use an edge-filled crop
+of the original knitting; login/loading logos preserve transparency around
+the knitted shape. Ivory knitting and blue airplane are retained.
 Background companion stays0.1.0-25; notification reception code is unchanged.
 
 UPDATE through Cydia:
 1. Refresh sources and open MiChiRose: https://michirose.github.io/cydia/
-2. Select Telegraphica0.1.0~beta1-39 and Upgrade/Install.
-3. Open the app; Settings should show build39 and the new icon.
+2. Select Telegraphica0.1.0~beta1-40 and Upgrade/Install.
+3. Open the app; Settings should show build40 and the new icon.
 Do not remove the app before updating. The installer updates the same app identity
 and checks that its existing container is preserved. No terminal/computer needed.
 If an old half-configured-package prompt appears, choose Ignore (Temporary),
@@ -18,11 +19,11 @@ source. Home-screen deletion may erase local account data; removing the Cydia
 installer package alone preserves the installed app. Stock iOS is unsupported.
 
 Owner confirmed previous38.5 installation and launch THROUGH CYDIA on iPhone4s/
-iOS6.1.3. Build39 has legacy build/package and synthetic update-container checks;
+iOS6.1.3. Build40 has legacy build/package and synthetic update-container checks;
 physical update retention/icon presentation require the owner's new check.
 No USB preinstallation substitutes for this Cydia test. Other devices unverified.
 
-IPA: Telegraphica-0.1.0-beta1-build39-ios6-armv7.ipa
+IPA: Telegraphica-0.1.0-beta1-build40-ios6-armv7.ipa
 A compatible jailbreak IPA installer with AppSync is needed. Downloading the IPA
 in Safari alone does not install it. Cydia is the normal installation method.
 
