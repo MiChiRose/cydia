@@ -13,7 +13,7 @@ iOS6.1 discovery checks. External first-install confirmation is pending.
 Fresh physical installation and other ARMv7 devices have not yet been verified.
 
 Cydia: Manage > Sources > Edit > Add:
-https://michirose.github.io/telegraphica-cydia/
+https://michirose.github.io/cydia/
 Refresh, select Telegraphica (full application), Install.
 Telegraphica Background installs/starts automatically. No terminal required.
 AppSync must already be available from your trusted package source.

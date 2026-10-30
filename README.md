@@ -4,10 +4,11 @@
 В Cydia источник отображается как **MiChiRose**; совместимость и зависимости
 определяются отдельно для каждого пакета.
 
-**Адрес источника:** <https://michirose.github.io/telegraphica-cydia/>
+**Адрес источника:** <https://michirose.github.io/cydia/>
 
-Если источник уже добавлен, обновите список источников в Cydia.
-Адрес сохраняется для существующих пользователей.
+Если раньше был добавлен источник `/telegraphica-cydia/`, удалите старую запись
+из списка источников Cydia и добавьте новый адрес выше. Удалять установленные
+приложения и твики не нужно.
 
 ## Доступные пакеты
 
@@ -32,11 +33,11 @@
 <p align="center"><strong>Бета 1 · Сборка 38 · Jailbreak + AppSync</strong></p>
 
 <p align="center">
-  <a href="https://michirose.github.io/telegraphica-cydia/"><strong>Источник Cydia</strong></a>
+  <a href="https://michirose.github.io/cydia/"><strong>Источник Cydia</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MiChiRose/telegraphica-cydia/releases/download/ios6-v0.1.0-beta1-38.4/Telegraphica-0.1.0-beta1-ios6-armv7.ipa"><strong>Скачать IPA</strong></a>
+  <a href="https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-38.4/Telegraphica-0.1.0-beta1-ios6-armv7.ipa"><strong>Скачать IPA</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MiChiRose/telegraphica-cydia/releases/tag/ios6-v0.1.0-beta1-38.4">Все файлы релиза</a>
+  <a href="https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-38.4">Все файлы релиза</a>
 </p>
 
 ---
@@ -84,7 +85,7 @@ Telegraphica — неофициальный клиент Telegram. Это пер
 2. Вставьте адрес источника:
 
    ```text
-   https://michirose.github.io/telegraphica-cydia/
+   https://michirose.github.io/cydia/
    ```
 
 3. Дождитесь обновления списка пакетов и откройте добавленный источник.
@@ -93,14 +94,14 @@ Telegraphica — неофициальный клиент Telegram. Это пер
 
 **Telegraphica Background установится автоматически** как зависимость полного приложения. Отдельно настраивать службу не требуется.
 
-> Источник уже добавлен? Просто обновите список пакетов. Выбирайте **Telegraphica**, а не только **Telegraphica Background** — это полное приложение.
+> Источник уже добавлен по новому адресу? Просто обновите список пакетов. Выбирайте **Telegraphica**, а не только **Telegraphica Background** — это полное приложение.
 
 ## IPA и другие загрузки
 
 | Скачать | Для чего |
 | --- | --- |
-| **[IPA для iOS 6](https://github.com/MiChiRose/telegraphica-cydia/releases/download/ios6-v0.1.0-beta1-38.4/Telegraphica-0.1.0-beta1-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
-| **[Все файлы релиза](https://github.com/MiChiRose/telegraphica-cydia/releases/tag/ios6-v0.1.0-beta1-38.4)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
+| **[IPA для iOS 6](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-38.4/Telegraphica-0.1.0-beta1-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
+| **[Все файлы релиза](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-38.4)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
 
 Загрузка IPA в Safari сама по себе **не устанавливает приложение**. Для обычной установки используйте Cydia по шагам выше.
 
@@ -131,11 +132,11 @@ Telegraphica is an unofficial Telegram client for **jailbroken iOS 6 / ARMv7** d
 
 1. Install or make available **AppSync Unified compatible with iOS 6** from your trusted package source.
 2. Open **Cydia → Manage → Sources → Edit → Add**.
-3. Add **https://michirose.github.io/telegraphica-cydia/** and refresh.
+3. Add **https://michirose.github.io/cydia/** and refresh.
 4. Install **Telegraphica**, the full application. The companion installs automatically; no terminal or development Mac is needed.
 5. Open the app and sign in to your own Telegram account. QR login uses Telegram on another device.
 
-The [IPA](https://github.com/MiChiRose/telegraphica-cydia/releases/download/ios6-v0.1.0-beta1-38.4/Telegraphica-0.1.0-beta1-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
+The [IPA](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-38.4/Telegraphica-0.1.0-beta1-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
 
 Do not delete an existing app before updating. The tested upgrade preserved login and dialogs; a fresh physical installation and other devices have not yet been checked. Real calls and proxy settings are not implemented, Music search has known issues, and background battery behavior remains experimental.
 
@@ -144,7 +145,7 @@ Do not delete an existing app before updating. The tested upgrade preserved logi
 <details>
 <summary><strong>Контрольные суммы и обратная связь</strong></summary>
 
-`SHA256SUMS` в [релизе](https://github.com/MiChiRose/telegraphica-cydia/releases/tag/ios6-v0.1.0-beta1-38.4) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/telegraphica-cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
+`SHA256SUMS` в [релизе](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-38.4) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
 
 Чтобы сообщить о проблеме, укажите сборку, модель устройства, версию iOS, шаги воспроизведения и текст ошибки. Не отправляйте переписку, номера телефонов, коды входа или пароли.
 
