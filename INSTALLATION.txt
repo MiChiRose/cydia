@@ -1,40 +1,35 @@
-Telegraphica 0.1.0 beta 1 — build 38, Cydia revision 0.1.0~beta1-38.5
+Telegraphica 0.1.0 beta 1 — build39, Cydia package0.1.0~beta1-39
 
-Installer38.5 and Background25 address dependency configuration exit status3
-before the app installer starts. Missing app/deferred background discovery no
-longer blocks the full package; stale jobs are not loaded. Invalid unrelated
-application metadata no longer blocks Telegraphica discovery.
-The application remains build38; its IPA and notification worker are unchanged.
+New owner-provided knitted airplane logo throughout the iOS application:
+Home-screen/system notification icons, login, loading and settings screens.
+Background companion stays0.1.0-25; notification reception code is unchanged.
 
-Refresh Cydia sources and select Telegraphica0.1.0~beta1-38.5; companion25
-updates automatically. If Cydia offers to retry an old half-configured package,
-choose Ignore (Temporary), refresh and upgrade Telegraphica. Do not forcibly
-clear packages or delete the existing app.
+UPDATE through Cydia:
+1. Refresh sources and open MiChiRose: https://michirose.github.io/cydia/
+2. Select Telegraphica0.1.0~beta1-39 and Upgrade/Install.
+3. Open the app; Settings should show build39 and the new icon.
+Do not remove the app before updating. The installer updates the same app identity
+and checks that its existing container is preserved. No terminal/computer needed.
+If an old half-configured-package prompt appears, choose Ignore (Temporary),
+refresh and upgrade the full Telegraphica package. Do not forcibly clear packages.
 
-Requires jailbreak and AppSync Unified compatible with iOS6.
-App was tested on iPhone4s/iOS6.1.3; the previous38.3 Cydia update preserved
-login.38.4 first installation failed before the app installer ran. This38.5
-revision has native synthetic package-order and iOS6.1 discovery checks;
-first installation THROUGH CYDIA on a physical device is still unverified.
-Other ARMv7 devices have not yet been verified.
+Requires jailbroken iOS6/ARMv7 and compatible AppSync Unified from your trusted
+source. Home-screen deletion may erase local account data; removing the Cydia
+installer package alone preserves the installed app. Stock iOS is unsupported.
 
-Cydia: Manage > Sources > Edit > Add:
-https://michirose.github.io/cydia/
-Refresh, select Telegraphica (full application), Install.
-Telegraphica Background is installed/configured automatically. No terminal needed.
-AppSync must already be available from your trusted package source.
-Open the app and log in to your own Telegram account.
+Owner confirmed previous38.5 installation and launch THROUGH CYDIA on iPhone4s/
+iOS6.1.3. Build39 has legacy build/package and synthetic update-container checks;
+physical update retention/icon presentation require the owner's new check.
+No USB preinstallation substitutes for this Cydia test. Other devices unverified.
 
-Do NOT delete an existing app before updating. Removing the Cydia installer
-package preserves the app/account; deleting its Home-screen icon may erase data.
-IPA alone requires a compatible jailbreak IPA installer with AppSync.
-Safari downloading an IPA is not an installation method. Stock iOS is unsupported.
+IPA: Telegraphica-0.1.0-beta1-build39-ios6-armv7.ipa
+A compatible jailbreak IPA installer with AppSync is needed. Downloading the IPA
+in Safari alone does not install it. Cydia is the normal installation method.
 
-The packages include no session, messages, contacts, cache, database keys,
-signing keys, provisioning profiles or embedded local Telegram API configuration.
-Application configuration is obtained over HTTPS. Every user logs in independently.
+Packages contain no session, messages, contacts, cache, database keys, signing
+keys, profiles or local Telegram API credentials. Every user signs in themselves;
+app configuration is obtained through HTTPS. Application sources remain private.
 
-Real calls and in-app proxy settings are not implemented. Music search has known
-issues. Background notifications use a jailbreak companion; battery behavior is
-experimental. Send feedback with build/device/iOS/steps/error, without private
-chat contents, phone numbers, codes or passwords.
+Real calls/proxy settings are not implemented. Music search has known issues.
+Background delivery uses a jailbreak companion; battery behavior is experimental.
+Send feedback without phone numbers, codes, passwords or private chat contents.
