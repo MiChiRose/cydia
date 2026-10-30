@@ -116,7 +116,8 @@
   },
   "artifacts": {
     "Telegraphica-0.1.0-beta1-ios6-armv7.ipa": "ca80a51965164f88b6a1dd895f740ddf76d2b0312893ffe1f4854d246a012851",
-    "telegraphica_0.1.0-beta1-38.4_iphoneos-arm.deb": "82f3c68dc0ad0d9b64862a656e5fbb4e5286ffa6c5281aed55a6a118ff77fadc"
+    "telegraphica_0.1.0-beta1-38.5_iphoneos-arm.deb": "ee8e090cb96ef07e3dd836c72beeb18d21cebd5eda1f33bf435ec142bd1137d6",
+    "telegraphica-background_0.1.0-25_iphoneos-arm.deb": "454afa0e7eb63f72148f34e7201a2384edb51a4c56681d9f2216e93ba94c5c9b"
   },
   "account_data": "not included; packaging reads compiler output only"
 }

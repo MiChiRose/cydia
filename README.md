@@ -35,9 +35,9 @@
 <p align="center">
   <a href="https://michirose.github.io/cydia/"><strong>Источник Cydia</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-38.4/Telegraphica-0.1.0-beta1-ios6-armv7.ipa"><strong>Скачать IPA</strong></a>
+  <a href="https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-38.5/Telegraphica-0.1.0-beta1-ios6-armv7.ipa"><strong>Скачать IPA</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-38.4">Все файлы релиза</a>
+  <a href="https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-38.5">Все файлы релиза</a>
 </p>
 
 ---
@@ -67,7 +67,7 @@
 
 Telegraphica — неофициальный клиент Telegram. Это первая публичная бета; ограничения перечислены ниже.
 
-**Исправление установщика 38.4:** устранён ложный отказ `app-location-unsupported / code=7` при первой установке. Обновите список источников и убедитесь, что устанавливается версия **0.1.0~beta1-38.4**; фоновая зависимость — **0.1.0-24**. Само приложение остаётся сборкой 38.
+**Установщик 38.5 и служба 25:** исправлена остановка настройки зависимости с `exit status 3` до установки приложения. Служба ждёт установки Telegraphica; повреждённые метаданные сторонних приложений больше не блокируют поиск. Обновите источники и выберите **0.1.0~beta1-38.5**. Приложение остаётся сборкой 38. Первая установка этой ревизии через Cydia на физическом устройстве пока ожидает подтверждения.
 
 ## Перед установкой
 
@@ -100,8 +100,8 @@ Telegraphica — неофициальный клиент Telegram. Это пер
 
 | Скачать | Для чего |
 | --- | --- |
-| **[IPA для iOS 6](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-38.4/Telegraphica-0.1.0-beta1-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
-| **[Все файлы релиза](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-38.4)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
+| **[IPA для iOS 6](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-38.5/Telegraphica-0.1.0-beta1-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
+| **[Все файлы релиза](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-38.5)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
 
 Загрузка IPA в Safari сама по себе **не устанавливает приложение**. Для обычной установки используйте Cydia по шагам выше.
 
@@ -136,7 +136,7 @@ Telegraphica is an unofficial Telegram client for **jailbroken iOS 6 / ARMv7** d
 4. Install **Telegraphica**, the full application. The companion installs automatically; no terminal or development Mac is needed.
 5. Open the app and sign in to your own Telegram account. QR login uses Telegram on another device.
 
-The [IPA](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-38.4/Telegraphica-0.1.0-beta1-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
+The [IPA](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-38.5/Telegraphica-0.1.0-beta1-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
 
 Do not delete an existing app before updating. The tested upgrade preserved login and dialogs; a fresh physical installation and other devices have not yet been checked. Real calls and proxy settings are not implemented, Music search has known issues, and background battery behavior remains experimental.
 
@@ -145,7 +145,7 @@ Do not delete an existing app before updating. The tested upgrade preserved logi
 <details>
 <summary><strong>Контрольные суммы и обратная связь</strong></summary>
 
-`SHA256SUMS` в [релизе](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-38.4) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
+`SHA256SUMS` в [релизе](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-38.5) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
 
 Чтобы сообщить о проблеме, укажите сборку, модель устройства, версию iOS, шаги воспроизведения и текст ошибки. Не отправляйте переписку, номера телефонов, коды входа или пароли.
 

@@ -1,21 +1,27 @@
-Telegraphica 0.1.0 beta 1 — build 38, Cydia revision 0.1.0~beta1-38.4
+Telegraphica 0.1.0 beta 1 — build 38, Cydia revision 0.1.0~beta1-38.5
 
-Installer hotfix38.4 fixes false app-location-unsupported/code7 on first install.
-Refresh Cydia sources and select Telegraphica0.1.0~beta1-38.4; companion24
-updates automatically. The app itself stays at build38, with unchanged IPA.
-If Cydia offers to retry the old half-configured38.3 first, choose Ignore
-(Temporary), refresh and upgrade Telegraphica; do not forcibly clear packages.
+Installer38.5 and Background25 address dependency configuration exit status3
+before the app installer starts. Missing app/deferred background discovery no
+longer blocks the full package; stale jobs are not loaded. Invalid unrelated
+application metadata no longer blocks Telegraphica discovery.
+The application remains build38; its IPA and notification worker are unchanged.
 
-Requires jailbreak and AppSync Unified compatible with iOS 6.
-Tested app combination: iPhone 4s / iOS 6.1.3. The previous38.3 Cydia update
-and saved login were verified; current38.4 installer has native synthetic and
-iOS6.1 discovery checks. External first-install confirmation is pending.
-Fresh physical installation and other ARMv7 devices have not yet been verified.
+Refresh Cydia sources and select Telegraphica0.1.0~beta1-38.5; companion25
+updates automatically. If Cydia offers to retry an old half-configured package,
+choose Ignore (Temporary), refresh and upgrade Telegraphica. Do not forcibly
+clear packages or delete the existing app.
+
+Requires jailbreak and AppSync Unified compatible with iOS6.
+App was tested on iPhone4s/iOS6.1.3; the previous38.3 Cydia update preserved
+login.38.4 first installation failed before the app installer ran. This38.5
+revision has native synthetic package-order and iOS6.1 discovery checks;
+first installation THROUGH CYDIA on a physical device is still unverified.
+Other ARMv7 devices have not yet been verified.
 
 Cydia: Manage > Sources > Edit > Add:
 https://michirose.github.io/cydia/
 Refresh, select Telegraphica (full application), Install.
-Telegraphica Background installs/starts automatically. No terminal required.
+Telegraphica Background is installed/configured automatically. No terminal needed.
 AppSync must already be available from your trusted package source.
 Open the app and log in to your own Telegram account.
 
