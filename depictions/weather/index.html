@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MiChiRose Weather — Alpha</title>
+<style>body{font:16px Helvetica,Arial,sans-serif;line-height:1.5;color:#25384b;background:#eef1f4;margin:0}main{max-width:620px;margin:24px auto;padding:24px;background:#fff;border:1px solid #cbd3dc;border-radius:8px}a{color:#2466a5}h1{font-size:25px}code{font-size:14px;word-break:break-all}.status{padding:12px;background:#fff3d6;border-left:3px solid #b88018}</style></head>
+<body><main>
+<p><a href="../../">MiChiRose · Cydia</a></p>
+<h1>MiChiRose Weather</h1>
+<p class="status"><strong>Alpha 1 · 0.1.0~alpha1.</strong> Экспериментальная версия для iOS 6. Проверена на Mac; работа на физическом iPhone 4s / iOS 6.1.3 пока не подтверждена.</p>
+<p>Штатная «Погода» получает данные напрямую от Open-Meteo. Собственный сервер и API-ключ не нужны. Пакет требует jailbreak и Cydia Substrate.</p>
+<h2>Первая проверка</h2>
+<ol>
+<li>Удалите WeatherX / Weather &amp; Stocks из Cydia. MapsX можно оставить.</li>
+<li>Установите <strong>MiChiRose Weather (Alpha)</strong>.</li>
+<li>Полностью закройте и заново откройте «Погоду».</li>
+<li>Удалите один старый город в «Погоде» и добавьте его заново через поиск: старые Yahoo ID не подходят.</li>
+<li>Проверьте прогноз для вручную добавленного города.</li>
+</ol>
+<p>Ожидаемый результат: текущие условия, шесть следующих дней и двенадцать следующих часов. Переключение °C/°F и внешний вид нужно проверить на телефоне.</p>
+<h2>Ограничения</h2>
+<p>Геолокация, виджет, Siri и «Акции» в эту alpha не входят. Старый HTTPS на iOS 6 может не подключиться к поставщику данных; проверка сертификатов не отключается.</p>
+<p>Если погода не загружается, включённая в пакет утилита поможет определить причину:</p>
+<p><code>michirose-weather-probe --live Minsk</code></p>
+<p>Удаление пакета убирает исправление. После удаления можно вернуть WeatherX. Системное приложение и список городов автоматически не изменяются.</p>
+<h2>Источники данных</h2>
+<p>Прогноз: <a href="https://open-meteo.com/">Open-Meteo</a>. Города: <a href="https://www.geonames.org/">GeoNames</a> через Open-Meteo. Данные <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; наш адаптер округляет температуры и преобразует значки и формат ответов. Бесплатный API — для <a href="https://open-meteo.com/en/terms">некоммерческого использования</a>.</p>
+<p>Код GPL-3.0-only. <a href="../../michirose-weather-source-0.1.0-alpha1.tar.gz">Исходники, проверки и лицензии</a> также включены в DEB.</p>
+<p><a href="../../michirose-weather_0.1.0~alpha1_iphoneos-arm.deb">Скачать DEB Alpha 1</a></p>
+</main></body></html>
