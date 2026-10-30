@@ -14,9 +14,10 @@
 
 - **[MiChiRose Weather (Alpha)](https://michirose.github.io/cydia/depictions/weather/)** —
   экспериментальное исправление штатной «Погоды» на iOS 6 с прямым доступом
-  к Open-Meteo. Alpha 3 включает приложение **Weather Check** для проверки
-  HTTPS, загрузчика и геопозиции без терминала. Перед установкой удалить WeatherX. Физическая проверка на
-  iPhone 4s / iOS 6.1.3 пока не выполнена; геолокация в эту alpha не входит.
+  к Open-Meteo. Alpha 4 исправляет загрузку iOS 6 и добавляет локальный современный TLS.
+  На iPhone 4s / iOS 6.1.3 в **Weather Check** проверены поиск, прогноз (HTTP 200)
+  и преобразование формата. Внедрение в штатную Weather ещё проверяется.
+  Перед установкой удалить WeatherX; исправление геолокации в эту alpha не входит.
 - **Telegraphica** — неофициальный клиент Telegram для iOS 6 / ARMv7.
 - **Telegraphica Background** — фоновая служба, устанавливаемая вместе с Telegraphica.
 
