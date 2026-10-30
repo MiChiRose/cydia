@@ -1,36 +1,29 @@
-Telegraphica 0.1.0 beta 1 — build40, Cydia package0.1.0~beta1-40
+Telegraphica0.1.0 beta1 — build41, Cydia0.1.0~beta1-41
 
-External white backdrop from39 removed. System icons use an edge-filled crop
-of the original knitting; login/loading logos preserve transparency around
-the knitted shape. Ivory knitting and blue airplane are retained.
-Background companion stays0.1.0-25; notification reception code is unchanged.
+Home-screen icon update: system icon resources now use content-based names.
+After successful installation the installer requests a cache refresh ONLY for
+Telegraphica as the mobile user, without registering/removing applications.
+Artwork is unchanged from40; background companion remains0.1.0-25.
 
-UPDATE through Cydia:
-1. Refresh sources and open MiChiRose: https://michirose.github.io/cydia/
-2. Select Telegraphica0.1.0~beta1-40 and Upgrade/Install.
-3. Open the app; Settings should show build40 and the new icon.
-Do not remove the app before updating. The installer updates the same app identity
-and checks that its existing container is preserved. No terminal/computer needed.
-If an old half-configured-package prompt appears, choose Ignore (Temporary),
-refresh and upgrade the full Telegraphica package. Do not forcibly clear packages.
+Cydia: refresh sources > MiChiRose > Telegraphica > Upgrade0.1.0~beta1-41.
+Source: https://michirose.github.io/cydia/
+Update over the existing app; do not delete it. No terminal/computer needed.
+The same app identity, container-preservation check and Keychain identity remain.
+If an old half-configured warning appears, use Ignore (Temporary), refresh and
+upgrade; do not forcibly clear packages.
 
-Requires jailbroken iOS6/ARMv7 and compatible AppSync Unified from your trusted
-source. Home-screen deletion may erase local account data; removing the Cydia
-installer package alone preserves the installed app. Stock iOS is unsupported.
+New icon-refresh request is bounded and nonfatal: unsupported system API cannot
+turn a successful app update into a half-installed package. A diagnostic code
+OWN_ICON_REFRESH_RESULT is printed in the Cydia log. Acceptance by the system API
+does not prove visible Home-screen refresh; physical appearance is still pending.
+No global cache deletion, app registration rebuild or SpringBoard restart is used.
 
-Owner confirmed previous38.5 installation and launch THROUGH CYDIA on iPhone4s/
-iOS6.1.3. Build40 has legacy build/package and synthetic update-container checks;
-physical update retention/icon presentation require the owner's new check.
-No USB preinstallation substitutes for this Cydia test. Other devices unverified.
+Requires jailbroken iOS6/ARMv7 and compatible AppSync Unified from a trusted source.
+Stock iOS is unsupported. IPA requires a compatible jailbreak installer, not just
+Safari download: Telegraphica-0.1.0-beta1-build41-ios6-armv7.ipa.
 
-IPA: Telegraphica-0.1.0-beta1-build40-ios6-armv7.ipa
-A compatible jailbreak IPA installer with AppSync is needed. Downloading the IPA
-in Safari alone does not install it. Cydia is the normal installation method.
-
-Packages contain no session, messages, contacts, cache, database keys, signing
-keys, profiles or local Telegram API credentials. Every user signs in themselves;
-app configuration is obtained through HTTPS. Application sources remain private.
-
-Real calls/proxy settings are not implemented. Music search has known issues.
-Background delivery uses a jailbreak companion; battery behavior is experimental.
-Send feedback without phone numbers, codes, passwords or private chat contents.
+Packages contain no accounts, sessions, messages, contacts, databases, cache,
+API credentials, signing keys or profiles. Every user logs in independently.
+Real calls/proxy settings are not implemented; Music search has known issues.
+Background reception uses the existing jailbreak companion; battery behavior is
+experimental. Send feedback without passwords/codes/phone numbers/chat contents.
