@@ -1,11 +1,11 @@
-Origin: Telegraphica
-Label: Telegraphica Testing
+Origin: MiChiRose
+Label: MiChiRose
 Suite: stable
 Version: 0.1
 Codename: testing
 Architectures: iphoneos-arm
 Components: main
-Description: Complete Telegraphica beta and automatic background companion
+Description: MiChiRose repository for iOS apps, tweaks and utilities
 MD5Sum:
  1429b45aa855257cad79e246d663b38d 1629 Packages
  4479102fe8acae511d54dee3660d69fe 812 Packages.gz

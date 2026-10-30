@@ -1,8 +1,28 @@
+# MiChiRose — репозиторий Cydia
+
+Личный репозиторий приложений, твиков и утилит для iOS с jailbreak.
+В Cydia источник отображается как **MiChiRose**; совместимость и зависимости
+определяются отдельно для каждого пакета.
+
+**Адрес источника:** <https://michirose.github.io/telegraphica-cydia/>
+
+Если источник уже добавлен, обновите список источников в Cydia.
+Адрес сохраняется для существующих пользователей.
+
+## Доступные пакеты
+
+- **Telegraphica** — неофициальный клиент Telegram для iOS 6 / ARMv7.
+- **Telegraphica Background** — фоновая служба, устанавливаемая вместе с Telegraphica.
+
+Новые твики и утилиты будут добавляться в этот же источник.
+
+---
+
 <p align="center">
   <img src="readme-assets/icon.png" width="88" height="88" alt="Иконка Telegraphica">
 </p>
 
-<h1 align="center">Telegraphica для iOS 6</h1>
+<h2 align="center">Telegraphica для iOS 6</h2>
 
 <p align="center">
   Telegram в духе классического iPhone.<br>
