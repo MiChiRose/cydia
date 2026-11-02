@@ -1,29 +1,45 @@
-Telegraphica0.1.0 beta1 — build41, Cydia0.1.0~beta1-41
+Telegraphica для iOS 6 — бета 1, сборка 41
+Версия Cydia: 0.1.0~beta1-41. Background: 0.1.0-25.
 
-Home-screen icon update: system icon resources now use content-based names.
-After successful installation the installer requests a cache refresh ONLY for
-Telegraphica as the mobile user, without registering/removing applications.
-Artwork is unchanged from40; background companion remains0.1.0-25.
+ТРЕБОВАНИЯ
+- iOS 6 / ARMv7, jailbreak и Cydia.
+- Проверено на iPhone 4s / iOS 6.1.3; другие устройства пока не проверены так же подробно.
+- Совместимый с iOS 6 AppSync Unified из доверенного источника Cydia.
+  AppSync здесь не распространяется.
+- Обычная iOS без jailbreak, iOS 7 и новее не поддерживаются.
 
-Cydia: refresh sources > MiChiRose > Telegraphica > Upgrade0.1.0~beta1-41.
-Source: https://michirose.github.io/cydia/
-Update over the existing app; do not delete it. No terminal/computer needed.
-The same app identity, container-preservation check and Keychain identity remain.
-If an old half-configured warning appears, use Ignore (Temporary), refresh and
-upgrade; do not forcibly clear packages.
+УСТАНОВКА НА IPHONE — БЕЗ ТЕРМИНАЛА И КОМПЬЮТЕРА
+1. Если AppSync ещё нет, сначала установите его совместимую с iOS 6 версию.
+2. Cydia > Управление > Источники > Изменить > Добавить.
+3. Введите: https://michirose.github.io/cydia/
+4. Дождитесь обновления списка, откройте источник MiChiRose.
+5. Выберите Telegraphica > Установить > Подтвердить.
+   Это полное приложение; Background установится автоматически.
+6. Откройте Telegraphica с домашнего экрана и войдите в свой аккаунт.
+   Для QR-входа выберите «Войти по QR-коду». На другом устройстве:
+   Telegram > Настройки > Устройства > Подключить устройство.
+   Отсканируйте код с экрана старого iPhone.
 
-New icon-refresh request is bounded and nonfatal: unsupported system API cannot
-turn a successful app update into a half-installed package. A diagnostic code
-OWN_ICON_REFRESH_RESULT is printed in the Cydia log. Acceptance by the system API
-does not prove visible Home-screen refresh; physical appearance is still pending.
-No global cache deletion, app registration rebuild or SpringBoard restart is used.
+ОБНОВЛЕНИЕ
+Обновите список в Cydia и установите новую версию поверх текущей.
+Не удаляйте приложение с домашнего экрана: это может стереть локальные данные.
+Обновление с сохранением входа и диалогов проверено на iPhone 4s / iOS 6.1.3.
+Если добавлен старый /telegraphica-cydia/ или локальный источник разработчика,
+удалите только старую запись источника, сохранив установленные пакеты.
 
-Requires jailbroken iOS6/ARMv7 and compatible AppSync Unified from a trusted source.
-Stock iOS is unsupported. IPA requires a compatible jailbreak installer, not just
-Safari download: Telegraphica-0.1.0-beta1-build41-ios6-armv7.ipa.
+IPA
+Telegraphica-0.1.0-beta1-build41-ios6-armv7.ipa требует совместимого
+jailbreak-установщика IPA и AppSync. Загрузка в Safari не устанавливает приложение.
+Фоновая служба из IPA автоматически не устанавливается; используйте Cydia.
+Файлы: https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-41
 
-Packages contain no accounts, sessions, messages, contacts, databases, cache,
-API credentials, signing keys or profiles. Every user logs in independently.
-Real calls/proxy settings are not implemented; Music search has known issues.
-Background reception uses the existing jailbreak companion; battery behavior is
-experimental. Send feedback without passwords/codes/phone numbers/chat contents.
+ОГРАНИЧЕНИЯ И ОБРАТНАЯ СВЯЗЬ
+Это неофициальный клиент Telegram, первая публичная бета.
+Настоящие звонки и встроенные настройки прокси пока не реализованы;
+поиск музыки имеет известные проблемы. Фоновая доставка использует jailbreak-службу;
+длительный расход батареи ещё проверяется.
+В установочных файлах нет чужого аккаунта, переписки, контактов или базы данных.
+Для отзыва укажите модель, версию iOS, сборку и шаги воспроизведения ошибки.
+Номера телефонов, коды входа, пароли и переписку не присылайте.
+
+README: https://github.com/MiChiRose/cydia#telegraphica-ios6

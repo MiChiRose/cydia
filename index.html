@@ -1,20 +1,55 @@
 <!doctype html>
-<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MiChiRose · Cydia</title>
-<style>body{font:17px Helvetica,Arial,sans-serif;line-height:1.5;color:#25384b;background:#eef1f4;margin:0}main{max-width:620px;margin:40px auto;padding:24px;background:white;border:1px solid #cbd3dc;border-radius:8px}h1{color:#375a7e}a{color:#2466a5}code{font-size:14px;word-break:break-all}.button{display:inline-block;padding:10px 18px;border:1px solid #315b86;border-radius:6px;background:#4876a3;color:white;text-decoration:none}small{color:#607080}</style>
-<main><h1>MiChiRose</h1><p>Личный репозиторий приложений, твиков и утилит для iOS с jailbreak.</p>
-<p>Здесь публикуются Telegraphica и другие проекты MiChiRose. Совместимость и зависимости указаны отдельно для каждого пакета.</p>
-<p><a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://michirose.github.io/cydia/">Добавить в Cydia</a></p>
-<p>Адрес для ручного добавления:<br><code>https://michirose.github.io/cydia/</code></p>
-<h2>Доступные пакеты</h2>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MiChiRose · Telegraphica для iOS 6</title>
+<style>
+body{font:17px Helvetica,Arial,sans-serif;line-height:1.6;color:#25384b;background:#f3f0e9;margin:0}
+main{max-width:860px;margin:28px auto;padding:28px;background:#fff;border:1px solid #d8d5cc;border-radius:8px}
+h1,h2,h3{color:#294c73;line-height:1.25}a{color:#2466a5}code{font-size:15px;word-wrap:break-word}
+.button{display:inline-block;padding:10px 18px;border:1px solid #315b86;border-radius:6px;background:#4876a3;color:#fff;text-decoration:none}
+small,figcaption{color:#607080;font-size:14px}.render{display:block;width:100%;height:auto;border:0}figure{margin:24px 0}figcaption{margin-top:8px}
+.source{padding:14px;background:#edf3f8;border:1px solid #cbd7e2;border-radius:6px}.screens img{max-width:30%;height:auto;margin:0 1%}
+li{margin-bottom:10px}hr{border:0;border-top:1px solid #d8dfe5;margin:28px 0}
+@media(max-width:600px){main{margin:0;padding:18px;border:0;border-radius:0}body{font-size:16px}.screens img{max-width:96%;display:block;margin:16px auto}}
+</style>
+</head>
+<body><main>
+<p><strong>MiChiRose — репозиторий Cydia</strong> · <a href="#install">Установка</a> · <a href="#other-packages">Другие пакеты</a></p>
+<h1>Telegraphica для iOS 6</h1>
+<p>Telegram в духе классического iPhone: фактурные темы, привычная переписка и новая жизнь любимого устройства.</p>
+<p><strong>Бета 1 · Сборка 41 · iOS 6 / ARMv7 · Jailbreak + AppSync</strong></p>
+<figure><img class="render" src="readme-assets/telegraphica-ios6-chats.png" width="1254" height="1254" alt="Рендер чёрного iPhone 4s со списком чатов Telegraphica"><figcaption>Рендер с демонстрационным экраном. Имена и переписка вымышлены; личные данные не использовались.</figcaption></figure>
+<p><a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://michirose.github.io/cydia/">Добавить источник в Cydia</a></p>
+<p class="source">Адрес для ручного добавления:<br><code>https://michirose.github.io/cydia/</code></p>
+<h2 id="install">Как установить</h2>
+<p><strong>Всё делается на iPhone. Терминал и компьютер не нужны.</strong></p>
+<ol>
+<li><strong>Проверьте требования:</strong> iOS 6, ARMv7, jailbreak и Cydia. Проверено на <strong>iPhone 4s / iOS 6.1.3</strong>. Если AppSync Unified ещё нет, сначала установите совместимую с iOS 6 версию из доверенного источника. Здесь AppSync не распространяется.</li>
+<li><strong>Добавьте источник:</strong> Cydia → Управление → Источники → Изменить → Добавить. Введите <code>https://michirose.github.io/cydia/</code> и дождитесь завершения обновления списка.</li>
+<li><strong>Установите приложение:</strong> откройте источник <strong>MiChiRose</strong> → <strong>Telegraphica</strong> → Установить → Подтвердить. Telegraphica Background установится автоматически; выбирайте полное приложение, а не только службу.</li>
+<li><strong>Войдите в свой аккаунт:</strong> откройте Telegraphica и выберите «Войти по QR-коду». На другом устройстве: Telegram → Настройки → Устройства → Подключить устройство. Отсканируйте код с экрана старого iPhone.</li>
+</ol>
+<p>Текущие версии: <strong>Telegraphica 0.1.0~beta1-41</strong> и <strong>Background 0.1.0-25</strong>.</p>
+<p><strong>Для обновления не удаляйте приложение.</strong> Обновите список в Cydia и установите новую версию поверх текущей. Обновление с сохранением входа и диалогов проверено на iPhone 4s / iOS 6.1.3. Удаление иконки с домашнего экрана может удалить локальные данные.</p>
+<p>Если источник пустой, обновите список и проверьте адрес. Старый источник <code>/telegraphica-cydia/</code> или локальный источник разработчика можно удалить из списка, сохранив установленные пакеты. Если Cydia требует AppSync, сначала установите его совместимую версию.</p>
+<h2>Что умеет Telegraphica</h2>
+<p>Личные диалоги, группы, папки и темы форумов; фотографии и файлы; голосовые сообщения и видеокружки; ответы, стикеры и реакции; классические темы и Aqua.</p>
+<p>Фоновая jailbreak-служба принимает уведомления и при закрытом приложении. Длительный расход батареи ещё проверяется.</p>
+<figure><img class="render" src="readme-assets/telegraphica-ios6-drawer.png" width="1254" height="1254" alt="Рендер белого iPhone 4s с фактурным боковым меню Telegraphica"><figcaption>Боковое меню с профилем, настройками и папками. Демонстрационные данные.</figcaption></figure>
+<div class="screens"><img src="readme-assets/chats.png" alt="Демонстрационный список чатов"><img src="readme-assets/drawer.png" alt="Демонстрационное боковое меню"><img src="readme-assets/messages.png" alt="Демонстрационный диалог с цитатой и голосовым сообщением"></div>
+<h2>Бета: ограничения и загрузки</h2>
+<p>Telegraphica — неофициальный клиент Telegram. Настоящие аудио- и видеозвонки и настройки прокси пока не реализованы; поиск музыки имеет известные проблемы. Другие устройства пока не прошли такую же проверку. Обычная iOS без jailbreak, iOS 7 и новее не поддерживаются.</p>
+<p>В сборке 41 исправлено отображение новой вязаной иконки на домашнем экране; результат подтверждён владельцем на iPhone 4s / iOS 6.1.3.</p>
+<p><a href="https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-41/Telegraphica-0.1.0-beta1-build41-ios6-armv7.ipa">Скачать IPA</a> · <a href="https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-41">Все файлы релиза</a></p>
+<p>IPA требует совместимого jailbreak-установщика и AppSync. Загрузка в Safari сама по себе не устанавливает приложение; фоновая служба в IPA не устанавливается автоматически. Для полного комплекта используйте Cydia.</p>
+<p><a href="INSTALLATION.txt">Текстовая инструкция</a> · <a href="SHA256SUMS">Контрольные суммы источника</a> · <a href="https://github.com/MiChiRose/cydia#telegraphica-ios6">README на GitHub</a></p>
+<p><small>В пакетах нет сессии, переписки, контактов, кэша и ключей базы. Каждый пользователь входит в свой аккаунт. Индексы пока без подписи APT. Исходники Telegraphica хранятся отдельно. Для отзыва укажите модель, версию iOS, сборку и шаги ошибки; коды входа, пароли и переписку не присылайте.</small></p>
+<hr><h2 id="other-packages">Другие пакеты MiChiRose</h2>
 <h3>MiChiRose Weather — Alpha 4</h3>
 <p><strong>Исправлены загрузка iOS 6 и HTTPS:</strong> в Cydia выберите <strong>0.1.0~alpha4</strong>. Weather Check на iPhone 4s / iOS 6.1.3 получает поиск и прогноз с HTTP 200 и преобразует их в старый формат Weather.</p>
 <p>Экспериментальное исправление штатной «Погоды»: Open-Meteo напрямую, без своего сервера и API-ключа, с локальным современным TLS. Внедрение в штатную «Погоду» ещё проверяется. Перед установкой удалите WeatherX; MapsX можно оставить.</p>
 <p><a href="depictions/weather/">Инструкция и диагностика Alpha 4</a></p>
-<h3>Telegraphica — бета 1</h3><p><strong>Сборка 41:</strong> установщик отдельно обновляет системный значок Telegraphica после установки; имена файлов иконки зависят от их содержимого. В Cydia обновите Telegraphica до 0.1.0~beta1-41 поверх текущей версии. Рисунок и служба25 не меняются. Наружный значок пока ожидает проверки на телефоне.</p><p>Полное приложение, сборка 41. После добавления источника обновите список, выберите <strong>Telegraphica</strong> и нажмите «Установить». Фоновая служба установится автоматически, терминал не нужен.</p>
-<p>Требуются jailbreak и <strong>AppSync Unified для iOS 6</strong>, доступный из вашего доверенного источника. Проверены iPhone 4s / iOS 6.1.3 и обновление с сохранением входа. Чистая установка на другом устройстве пока не проверялась.</p>
-<p>Не удаляйте прежнее приложение перед обновлением. Удаление установочного пакета из Cydia сохраняет приложение и аккаунт; удаление иконки с домашнего экрана может удалить данные.</p>
-<p>Настоящие звонки и настройки прокси пока не реализованы. Это бета с известными ограничениями. Устройства без jailbreak не поддерживаются.</p>
-<p><a class="button" href="https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-41">Скачать IPA и посмотреть релиз</a></p>
-<p><a href="INSTALLATION.txt">Инструкция</a> · <a href="SHA256SUMS">Контрольные суммы источника</a> · <a href="https://github.com/MiChiRose/cydia">Репозиторий</a></p>
-<small>В пакетах нет сессии, переписки, контактов, кэша и ключей базы. Каждый пользователь входит в свой аккаунт. Индексы пока без подписи APT. Исходники приложения хранятся отдельно.</small></main></html>
+<p>Совместимость и зависимости определяются отдельно для каждого пакета.</p>
+</main></body></html>
