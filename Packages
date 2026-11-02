@@ -34,12 +34,12 @@ MD5sum: 3fac073f2927464274af41d8b8da5d0b
 
 Package: com.michirose.weather
 Name: Weather Fix (Alpha)
-Version: 0.1.0~alpha7-1
+Version: 0.1.0~alpha8
 Architecture: iphoneos-arm
 Description: Experimental direct Open-Meteo bridge for the stock iOS 6 Weather app.
  No private server or API key required. Remove WeatherX before installing.
  Re-add saved cities after installation. Stock Weather integration remains experimental.
- Restorable Local Weather IDs, private modern TLS, no extra app or icon.
+ Pull down on the city header to refresh; private modern TLS, no extra icon.
  Forecast data: Open-Meteo (CC BY 4.0); city data: GeoNames via Open-Meteo.
 Maintainer: MiChiRose
 Author: MiChiRose
@@ -47,12 +47,12 @@ Section: Tweaks
 Depends: firmware (>= 6.0), firmware (<< 7.0), mobilesubstrate, uikittools
 Depiction: https://michirose.github.io/cydia/depictions/weather/
 Homepage: https://michirose.github.io/cydia/
-Installed-Size: 6596
-Filename: ./michirose-weather_0.1.0~alpha7-1_iphoneos-arm.deb
-Size: 6126776
-SHA256: e02ffcd807535777eb5ec99bf8cc2e4438d6e8b41b0919fba81bcf0863ad279e
-SHA1: 5dd4c3906ca63983480b99f14a956fea089ff5c9
-MD5sum: 430792c6c5684c81d8bcb554965c3b0d
+Installed-Size: 6605
+Filename: ./michirose-weather_0.1.0~alpha8_iphoneos-arm.deb
+Size: 6135482
+SHA256: f94d0463de3633f920a25299544daf7b7e789dda602f646469f8cb17bb998de7
+SHA1: 65d3978bde4155b4b7906ac58b52a385fb8e765c
+MD5sum: 9ed3d6e1b5d03cddfd1ea89fb060d123
 
 Package: com.michirose.airpodsfix
 Name: AirPods Fix (Alpha)
