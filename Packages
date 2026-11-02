@@ -1,6 +1,6 @@
 Package: com.michirose.telegraphica.ios
 Name: Telegraphica
-Version: 0.1.0~beta1-41
+Version: 0.1.0~beta1-42
 Architecture: iphoneos-arm
 Description: Telegraphica beta messenger for jailbroken iOS 6.
  Installs the complete application in a normal iOS application container.
@@ -10,11 +10,11 @@ Description: Telegraphica beta messenger for jailbroken iOS 6.
 Maintainer: Telegraphica
 Section: Networking
 Depends: firmware (>= 6.0), firmware (<< 7.0), net.angelxwind.appsyncunified, com.michirose.telegraphica.background (>= 0.1.0-25), coreutils, system-cmds
-Filename: ./telegraphica_0.1.0-beta1-41_iphoneos-arm.deb
-Size: 10722842
-SHA256: c709399600d786453144c6f6bc0de9ebe1aebfadd05a158a0fd716c906b2a5a6
-SHA1: fed3b3ca5207b6a169b4d6624a7135e76f3528c3
-MD5sum: fa4a7098dae262efca42c80892c6a803
+Filename: ./telegraphica_0.1.0-beta1-42_iphoneos-arm.deb
+Size: 11088736
+SHA256: 7ed58f0ca133887f18601167b00873b605b6db87e9d4eba63d78aa76684a24b1
+SHA1: 8854dd2c8c1738d66f5db33812a43378d1e5250d
+MD5sum: 3630f03079862c1205f12d581bc358dc
 
 Package: com.michirose.telegraphica.background
 Name: Telegraphica Background
