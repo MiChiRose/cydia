@@ -27,6 +27,7 @@ No marketing hero, decorative animation, diagnostic transcript, dense release hi
 - Keep installation instructions actionable.
 - Describe tested compatibility honestly.
 - Keep implementation history in source documentation.
+- Package display names omit the developer nickname: Weather Fix, AirPods Fix. Author credits and the MiChiRose repository identity remain separate.
 
 ## Accessibility & Inclusion
 

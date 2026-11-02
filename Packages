@@ -33,8 +33,8 @@ SHA1: 44f15452f7a57c6dccb83bed1893787bdd0f640e
 MD5sum: 3fac073f2927464274af41d8b8da5d0b
 
 Package: com.michirose.weather
-Name: MiChiRose Weather (Alpha)
-Version: 0.1.0~alpha7
+Name: Weather Fix (Alpha)
+Version: 0.1.0~alpha7-1
 Architecture: iphoneos-arm
 Description: Experimental direct Open-Meteo bridge for the stock iOS 6 Weather app.
  No private server or API key required. Remove WeatherX before installing.
@@ -48,15 +48,15 @@ Depends: firmware (>= 6.0), firmware (<< 7.0), mobilesubstrate, uikittools
 Depiction: https://michirose.github.io/cydia/depictions/weather/
 Homepage: https://michirose.github.io/cydia/
 Installed-Size: 6596
-Filename: ./michirose-weather_0.1.0~alpha7_iphoneos-arm.deb
-Size: 6126754
-SHA256: 01a329cff201a063ab3cd137862fcf30f27eab6aedabef3556b1ac20409c1e71
-SHA1: 91c2a4421718cd3271db2bd957023c53d01e54ba
-MD5sum: 2033cd874c3fd4bb1e222bce36032159
+Filename: ./michirose-weather_0.1.0~alpha7-1_iphoneos-arm.deb
+Size: 6126776
+SHA256: e02ffcd807535777eb5ec99bf8cc2e4438d6e8b41b0919fba81bcf0863ad279e
+SHA1: 5dd4c3906ca63983480b99f14a956fea089ff5c9
+MD5sum: 430792c6c5684c81d8bcb554965c3b0d
 
 Package: com.michirose.airpodsfix
-Name: MiChiRose AirPods (Alpha)
-Version: 0.1.0~alpha1
+Name: AirPods Fix (Alpha)
+Version: 0.1.0~alpha1-1
 Architecture: iphoneos-arm
 Description: Experimental AirPods audio compatibility fix for iOS 6.1.3.
  Based on Dane Bentley's iOS 6 AirPods Fix. Reboot after installation or removal.
@@ -70,9 +70,9 @@ Conflicts: com.danebentley.ios6airpodsfix
 Depiction: https://michirose.github.io/cydia/depictions/airpods/
 Homepage: https://github.com/DaneBentley/ios6-airpods-fix
 Installed-Size: 85
-Filename: ./michirose-airpods_0.1.0~alpha1_iphoneos-arm.deb
+Filename: ./michirose-airpods_0.1.0~alpha1-1_iphoneos-arm.deb
 Size: 22892
-SHA256: 4f9297fd4b3e45c5da9773bd2a48c7f559989bf5c89b6480c3e7ceb22481a771
-SHA1: dcfc58e2f1882b12934aab9c64020d33d195feb8
-MD5sum: 594b2bb467ddf0099d9a991e5aea856c
+SHA256: 599f04ce419d4ac2db0343d59ed2c82a484dfd01c6aa4811b0a6ee04ec0cd759
+SHA1: fbf02a70b4490d51853d4ac1b2a40d6fac8fbc68
+MD5sum: d23347480ff98aa8dfcc806f73d943fd
 
