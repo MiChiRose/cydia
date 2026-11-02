@@ -1,33 +1,101 @@
 <!doctype html>
 <html lang="ru">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MiChiRose Weather — Alpha</title>
-<style>body{font:16px Helvetica,Arial,sans-serif;line-height:1.5;color:#25384b;background:#eef1f4;margin:0}main{max-width:620px;margin:24px auto;padding:24px;background:#fff;border:1px solid #cbd3dc;border-radius:8px}a{color:#2466a5}h1{font-size:25px}code{font-size:14px;word-break:break-all}.status{padding:12px;background:#fff3d6;border-left:3px solid #b88018}</style></head>
-<body><main>
-<p><a href="../../">MiChiRose · Cydia</a></p>
-<h1>MiChiRose Weather</h1>
-<p class="status"><strong>Alpha 6 · 0.1.0~alpha6.</strong> Только исправление штатной «Погоды», без дополнительного приложения и иконки. Погодная библиотека побайтно совпадает с рабочей Alpha 5: на iPhone 4s / iOS 6.1.3 подтверждён прогноз в Local Weather. Чистая установка Alpha 6 через Cydia ещё проверяется.</p>
-<p>Штатная «Погода» получает данные напрямую от Open-Meteo. Собственный сервер и API-ключ не нужны. Пакет требует jailbreak и Cydia Substrate.</p>
-<p><strong>Исправление Alpha 5:</strong> после удаления WeatherX в настройках может оставаться его адрес сервиса. Теперь запросы на этот точный адрес тоже перехватываются локально и обслуживаются нашим адаптером. Настройки GPS и список городов не меняются.</p>
-<p><strong>Исправления Alpha 4:</strong> устранено падение загрузчика iOS 6 из-за несовместимых импортов и ARM-стабов. Встроенный Mbed TLS обеспечивает современные шифры для Open-Meteo с проверкой имени и сертификата сервера. Системные сертификаты не меняются. Исправление упаковки <code>LICENSE.dpkg-new</code> сохранено.</p>
-<h2>Без дополнительной иконки — Alpha 6</h2>
-<p>Weather Check больше не входит в пакет. После установки пользуйтесь только штатным приложением <strong>«Погода»</strong>. При обновлении через Cydia прежнее приложение, установленное этим пакетом, удаляется автоматически.</p>
-<h2>Первая проверка</h2>
-<ol>
-<li>Удалите WeatherX / Weather &amp; Stocks из Cydia. MapsX можно оставить.</li>
-<li>Установите <strong>MiChiRose Weather (Alpha)</strong>.</li>
-<li>Полностью закройте и заново откройте «Погоду», проверьте Local Weather.</li>
-<li>Удалите один старый город в «Погоде» и добавьте его заново через поиск: старые Yahoo ID не подходят.</li>
-<li>Проверьте прогноз для вручную добавленного города.</li>
-</ol>
-<p>Ожидаемый результат: текущие условия, шесть следующих дней и двенадцать следующих часов. Переключение °C/°F и внешний вид нужно проверить на телефоне.</p>
-<h2>Ограничения</h2>
-<p>Системный Core Location не меняется: штатная Local Weather получает прогноз по уже доступному местоположению. Виджет, Siri и «Акции» не входят в эту alpha. HTTPS-клиент ограничен погодными API и использует встроенные корни ISRG X1/X2. При смене CA может потребоваться обновление пакета. Проверка сертификатов не отключается.</p>
-<p>Если погода не загружается, включённая в пакет утилита поможет определить причину:</p>
-<p><code>michirose-weather-probe --live Minsk</code></p>
-<p>Удаление пакета убирает исправление. После удаления можно вернуть WeatherX. Системное приложение и список городов автоматически не изменяются.</p>
-<h2>Источники данных</h2>
-<p>Прогноз: <a href="https://open-meteo.com/">Open-Meteo</a>. Города: <a href="https://www.geonames.org/">GeoNames</a> через Open-Meteo. Данные <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; наш адаптер округляет температуры и преобразует значки и формат ответов. Бесплатный API — для <a href="https://open-meteo.com/en/terms">некоммерческого использования</a>.</p>
-<p>Код GPL-3.0-only; Mbed TLS — Apache-2.0. <a href="../../michirose-weather-source-0.1.0-alpha6.tar.gz">Исходники, проверки и лицензии</a> также включены в DEB.</p>
-<p><a href="../../michirose-weather_0.1.0~alpha6_iphoneos-arm.deb">Скачать DEB Alpha 6</a></p>
-</main></body></html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="MiChiRose Weather возвращает прогноз в штатную «Погоду» iOS 6. Установка через Cydia, без дополнительного приложения и иконки.">
+<meta name="format-detection" content="telephone=no">
+<title>MiChiRose Weather · iOS 6</title>
+<style>
+/* Deliberately compatible with the WebKit shipped in iOS 6. */
+*{-webkit-box-sizing:border-box;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:#e3e7ed;color:#202832;font:15px/1.45 "Helvetica Neue",Helvetica,Arial,sans-serif}
+.page{max-width:480px;margin:0 auto;padding:22px 14px 20px}
+.package{min-height:72px;margin:0 5px 19px;position:relative;padding-left:80px}
+.package h1{margin:0;padding:2px 0 0;font-size:23px;line-height:1.12;letter-spacing:-.4px;color:#263448}
+.package h1 span{display:block}
+.byline{margin:6px 0 0;color:#526079;font-size:13px}
+.weather-icon{position:absolute;top:1px;left:0;width:64px;height:64px;overflow:hidden;border:1px solid #2577aa;border-radius:13px;background:#2c98cc;background:-webkit-linear-gradient(top,#61c7eb,#1476b4);background:linear-gradient(to bottom,#61c7eb,#1476b4);box-shadow:0 1px 2px rgba(35,51,73,.25)}
+.weather-icon:before{content:"";position:absolute;top:0;left:0;right:0;height:31px;border-radius:0 0 45% 45%;background:rgba(255,255,255,.14)}
+.sun{position:absolute;top:13px;left:11px;width:29px;height:29px;border:1px solid #e8a621;border-radius:50%;background:#ffd45c;box-shadow:0 0 6px rgba(255,218,99,.45)}
+.cloud{position:absolute;left:18px;top:39px;width:40px;height:15px;border-radius:10px;background:#fff;box-shadow:0 2px 2px rgba(25,75,111,.2)}
+.cloud:before,.cloud:after{content:"";position:absolute;border-radius:50%;background:#fff}
+.cloud:before{width:25px;height:25px;left:3px;top:-14px}
+.cloud:after{width:19px;height:19px;right:2px;top:-8px}
+.group{margin:0 0 18px;background:#fff;border:1px solid #b9c1cc;border-radius:10px;overflow:hidden}
+.intro{padding:14px 15px 0}
+.intro strong{display:block;font-size:17px;line-height:1.3;color:#263448}
+.intro p{margin:7px 0 13px}
+.quiet-feature{margin:0;padding:11px 15px;border-top:1px solid #d5dbe3;font-size:14px;color:#344c3c;background:#f6faf7}
+.check{font-weight:bold;color:#34744a;margin-right:6px}
+h2{margin:22px 12px 7px;color:#4d5c73;font-size:14px;line-height:1.3;font-weight:bold;text-shadow:0 1px 0 #fff}
+.facts{width:100%;border-collapse:collapse;font-size:14px;line-height:1.35}
+.facts th,.facts td{padding:11px 12px;border-top:1px solid #d5dbe3;vertical-align:top}
+.facts tr:first-child th,.facts tr:first-child td{border-top:0}
+.facts th{width:35%;text-align:left;font-weight:normal;color:#536078}
+.facts td{text-align:right;color:#202832}
+.instructions{margin:0;padding:0;list-style:none}
+.instructions li{padding:13px 15px;border-top:1px solid #d5dbe3}
+.instructions li:first-child{border-top:0}
+.instructions strong{display:block;margin-bottom:4px;font-size:15px;color:#263448}
+.instructions p{margin:0;font-size:14px}
+.note{margin:0 12px 17px;color:#4d5c73;font-size:13px;line-height:1.5}
+.link-row{position:relative;display:block;padding:12px 34px 12px 15px;min-height:45px;color:#285f96;text-decoration:none;border-top:1px solid #d5dbe3;font-weight:bold;font-size:14px}
+.link-row:first-child{border-top:0}
+.chevron{position:absolute;right:13px;top:6px;color:#7c8999;font-size:26px;line-height:30px;font-weight:normal}
+.link-row:active{background:#edf3fa}
+a{color:#285f96}
+a:focus{outline:2px solid #285f96;outline-offset:-3px}
+.credits{margin:20px 10px 0;text-align:center;font-size:12px;line-height:1.6;color:#526079}
+.credits p{margin:5px 0}
+.credits a{color:#3d5879}
+.credits .author{margin-top:12px;font-size:13px}
+@media(min-width:600px){.page{padding-top:32px;padding-bottom:32px}}
+</style>
+</head>
+<body>
+<div class="page" role="main">
+  <div class="package">
+    <div class="weather-icon" aria-hidden="true"><span class="sun"></span><span class="cloud"></span></div>
+    <h1><span>MiChiRose</span> Weather</h1>
+    <p class="byline">Для штатной «Погоды» iOS 6</p>
+  </div>
+  <div class="group">
+    <div class="intro">
+      <strong>Прогноз снова под рукой.</strong>
+      <p>Текущая погода по местоположению, поиск городов и прогноз на 6 дней и 12 часов — в привычном приложении.</p>
+    </div>
+    <p class="quiet-feature"><span class="check" aria-hidden="true">✓</span>Без нового приложения и иконки</p>
+  </div>
+  <h2 id="compatibility">Совместимость</h2>
+  <div class="group">
+    <table class="facts" aria-labelledby="compatibility"><tbody>
+      <tr><th scope="row">Версия</th><td>0.1.0~alpha6</td></tr>
+      <tr><th scope="row">Система</th><td>iOS 6 · ARMv7</td></tr>
+      <tr><th scope="row">Проверено</th><td>iPhone 4s · iOS 6.1.3</td></tr>
+      <tr><th scope="row">Требуется</th><td>Jailbreak и Substrate</td></tr>
+    </tbody></table>
+  </div>
+  <h2>Установка</h2>
+  <div class="group">
+    <ol class="instructions">
+      <li><strong>Сначала удалите WeatherX</strong><p>Не используйте два исправления погоды одновременно. MapsX можно оставить.</p></li>
+      <li><strong>Установите пакет через Cydia</strong><p>Затем полностью закройте штатную «Погоду» и откройте её снова.</p></li>
+      <li><strong>Если старый город не обновляется</strong><p>Удалите его из списка «Погоды» и добавьте заново через поиск.</p></li>
+    </ol>
+  </div>
+  <h2>Об этой версии</h2>
+  <p class="note">Экспериментальная версия. Работа Local Weather подтверждена на iPhone 4s с iOS 6.1.3; чистая установка Alpha 6 ещё проверяется. Твик использует доступную телефону геопозицию. Виджет, Siri и «Акции» пока не поддерживаются.</p>
+  <div class="group">
+    <a class="link-row" href="../../michirose-weather-source-0.1.0-alpha6.tar.gz">Исходники и лицензии<span class="chevron" aria-hidden="true">›</span></a>
+    <a class="link-row" href="../../">Репозиторий MiChiRose<span class="chevron" aria-hidden="true">›</span></a>
+  </div>
+  <div class="credits">
+    <p>Прогноз: <a href="https://open-meteo.com/">Open-Meteo</a> · Города: <a href="https://www.geonames.org/">GeoNames</a></p>
+    <p>Данные <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, преобразованы для iOS 6.<br><a href="https://open-meteo.com/en/terms">Для некоммерческого использования.</a></p>
+    <p class="author">Сделано MiChiRose</p>
+  </div>
+</div>
+</body>
+</html>
