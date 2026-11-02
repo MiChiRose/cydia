@@ -185,8 +185,8 @@ Do not delete an existing app before updating. The tested upgrade preserved logi
 
 - **[MiChiRose Weather (Alpha)](https://michirose.github.io/cydia/depictions/weather/)** —
   экспериментальное исправление штатной «Погоды» на iOS 6 с прямым доступом
-  к Open-Meteo. Alpha 6 устанавливает только исправление, без Weather Check и новой иконки.
-  Погодная библиотека побайтно совпадает с Alpha 5 и обрабатывает оставшийся после WeatherX адрес сервиса.
+  к Open-Meteo. Alpha 7 исправляет обработку сохранённого местоположения.
+  Дополнительного приложения и новой иконки нет. Обрабатывается и оставшийся после WeatherX адрес сервиса.
   На iPhone 4s / iOS 6.1.3 подтверждена корректная погода в штатной **Local Weather**
   без ручного добавления города. Современный TLS работает внутри пакета;
   настройки GPS и список городов не меняются. Перед установкой удалить WeatherX.
