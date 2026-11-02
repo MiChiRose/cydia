@@ -34,7 +34,7 @@ MD5sum: 3fac073f2927464274af41d8b8da5d0b
 
 Package: com.michirose.weather
 Name: MiChiRose Weather (Alpha)
-Version: 0.1.0~alpha4
+Version: 0.1.0~alpha5
 Architecture: iphoneos-arm
 Description: Experimental direct Open-Meteo bridge for the stock iOS 6 Weather app.
  No private server or API key required. Remove WeatherX before installing.
@@ -47,10 +47,10 @@ Section: Tweaks
 Depends: firmware (>= 6.0), firmware (<< 7.0), mobilesubstrate, uikittools
 Depiction: https://michirose.github.io/cydia/depictions/weather/
 Homepage: https://michirose.github.io/cydia/
-Installed-Size: 7179
-Filename: ./michirose-weather_0.1.0~alpha4_iphoneos-arm.deb
-Size: 6441562
-SHA256: 4a7f60bc97d992d789772ffa5e11b3529a2bea4af23fd3d5aabec8f6b579baff
-SHA1: bddebb438162fc3095b7b4fc4129cb8f261609f0
-MD5sum: c801f7f8418f9036e4ceb98c971aff25
+Installed-Size: 7181
+Filename: ./michirose-weather_0.1.0~alpha5_iphoneos-arm.deb
+Size: 6443500
+SHA256: c31ceb77c346b7c13adb663a8fa1bc8d433bfe27460e63505bf9c463c3d96ed5
+SHA1: 430eab036e359eb63a983c4c73994f1bbc998cf1
+MD5sum: 8284f81f3336b045a6d8c4d6bf62e38a
 

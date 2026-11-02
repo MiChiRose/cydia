@@ -177,10 +177,10 @@ Do not delete an existing app before updating. The tested upgrade preserved logi
 
 - **[MiChiRose Weather (Alpha)](https://michirose.github.io/cydia/depictions/weather/)** —
   экспериментальное исправление штатной «Погоды» на iOS 6 с прямым доступом
-  к Open-Meteo. Alpha 4 исправляет загрузку iOS 6 и добавляет локальный современный TLS.
-  На iPhone 4s / iOS 6.1.3 в **Weather Check** проверены поиск, прогноз (HTTP 200)
-  и преобразование формата. Внедрение в штатную Weather ещё проверяется.
-  Перед установкой удалить WeatherX; исправление геолокации в эту alpha не входит.
+  к Open-Meteo. Alpha 5 обрабатывает оставшийся после WeatherX адрес сервиса.
+  На iPhone 4s / iOS 6.1.3 подтверждена корректная погода в штатной **Local Weather**
+  без ручного добавления города. Современный TLS работает внутри пакета;
+  настройки GPS и список городов не меняются. Перед установкой удалить WeatherX.
 - **Telegraphica** — неофициальный клиент Telegram для iOS 6 / ARMv7.
 - **Telegraphica Background** — фоновая служба, устанавливаемая вместе с Telegraphica.
 
