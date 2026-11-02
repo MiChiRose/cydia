@@ -180,6 +180,11 @@ Do not delete an existing app before updating. The tested upgrade preserved logi
 
 ## Доступные пакеты
 
+- **[MiChiRose AirPods (Alpha)](https://michirose.github.io/cydia/depictions/airpods/)** —
+  экспериментальная адаптация исправления Dane Bentley для iOS 6.1.3.
+  Профиль BTServer сопоставлен с iPhone 4s; прослушивание AirPods и звонки пока
+  не проверены. iPhone 5 включит исправление только на идентичной сборке BTServer.
+  После установки или удаления нужна ручная перезагрузка.
 - **[MiChiRose Weather (Alpha)](https://michirose.github.io/cydia/depictions/weather/)** —
   экспериментальное исправление штатной «Погоды» на iOS 6 с прямым доступом
   к Open-Meteo. Alpha 7 исправляет обработку сохранённого местоположения.
