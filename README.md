@@ -22,7 +22,7 @@
 
 **Telegram в духе классического iPhone.** Фактурные темы, привычная переписка и новая жизнь любимого устройства.
 
-**Бета 1 · Сборка 45 · iOS 6 / ARMv7 · Jailbreak + AppSync**
+**Бета 1 · Сборка 46 · iOS 6 / ARMv7 · Jailbreak + AppSync**
 
 [Установить через Cydia](#install-telegraphica) · [Что умеет приложение](#возможности) · [IPA и загрузки](#ipa-и-другие-загрузки)
 
@@ -56,9 +56,9 @@ https://michirose.github.io/cydia/
 
 В источнике **MiChiRose** выберите **Telegraphica → Установить → Подтвердить**.
 
-**Telegraphica Background подтянется автоматически.** Это фоновая служба для уведомлений; отдельно устанавливать и настраивать её не нужно. Выбирайте именно **Telegraphica**, а не только пакет Background.
+**Telegraphica Background и Telegraphica Updater подтянутся автоматически.** Это фоновая служба для уведомлений; отдельно устанавливать и настраивать её не нужно. Выбирайте именно **Telegraphica**, а не только пакет Background.
 
-Текущая версия полного пакета — **0.1.0~beta1-45**, службы — **0.1.0-25**.
+Текущая версия полного пакета — **0.1.0~beta1-46**, службы Background — **0.1.0-25**, установщика Updater — **0.1.0-1**.
 
 ### 4. Войдите в свой аккаунт
 
@@ -70,7 +70,7 @@ https://michirose.github.io/cydia/
 
 Каждый пользователь входит в свой аккаунт. Номера, коды входа и пароли никому присылать не нужно.
 
-> **Уже пользуетесь Telegraphica?** Обновите список пакетов в Cydia и установите обновление поверх приложения. **Не удаляйте его с домашнего экрана:** это может стереть локальные данные. Этот путь обновления ранее проверен с сохранением входа на iPhone 4s / iOS 6.1.3. Сборка 45 использует прежний установщик; её проверка на устройстве продолжается.
+> **Уже пользуетесь Telegraphica?** Обновите список пакетов в Cydia и установите обновление поверх приложения. **Не удаляйте его с домашнего экрана:** это может стереть локальные данные. Этот путь обновления ранее проверен с сохранением входа на iPhone 4s / iOS 6.1.3. Сборка 46 добавляет отдельный компонент обновлений, сохраняя прежний установщик приложения. Проверка новой сборки на устройстве продолжается.
 
 <details>
 <summary><strong>Если источник пустой или установка не начинается</strong></summary>
@@ -119,19 +119,19 @@ Telegraphica — неофициальный клиент Telegram. Это пер
 
 | Скачать | Для чего |
 | --- | --- |
-| **[IPA для iOS 6](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-45/Telegraphica-0.1.0-beta1-build45-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
-| **[Все файлы релиза](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-45)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
+| **[IPA для iOS 6](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-46/Telegraphica-0.1.0-beta1-build46-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
+| **[Все файлы релиза](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-46)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
 
-Загрузка IPA в Safari сама по себе **не устанавливает приложение**. IPA также не устанавливает фоновую службу автоматически: для полного комплекта используйте Cydia.
+Загрузка IPA в Safari сама по себе **не устанавливает приложение**. IPA также не устанавливает фоновую службу и компонент обновлений автоматически: для полного комплекта используйте Cydia.
 
-## Что нового в сборке 45
+## Что нового в сборке 46
 
-- Кнопка **«Повторить» полностью убрана** из предпросмотра стикера. Выбранный TGS/WebM воспроизводится по кругу; списки остаются неподвижными.
-- Медленный кадр снижает частоту воспроизведения вместо остановки анимации. При первом предупреждении о нехватке памяти предпросмотр автоматически возобновляется в меньшем разрешении; повторное предупреждение останавливает его для защиты приложения.
-- После возвращения в приложение возобновляется только открытый предпросмотр. «Отправить» и «Отмена» работают как прежде, набранный текст сохраняется.
-- Сохранена компактная стрелка вниз со счётчиком непрочитанных.
+- **Обновления из приложения:** проверка при открытии и затем раз в час, пока Telegraphica активна. Доступна ручная проверка в **Настройки → Обновления**.
+- **Вы решаете, когда обновляться.** «Отмена» скрывает только предложенную версию; следующая будет предложена снова. Ручная проверка доступна всегда.
+- Загрузка показывает прогресс. После проверки файлов появляется **«Установить и закрыть»**; после завершения установки откройте Telegraphica снова.
+- Компонент **Telegraphica Updater 0.1.0-1** устанавливается автоматически через Cydia и запускается только по необходимости.
 
-Исправления проверены в iOS 6 Simulator с искусственно замедленными кадрами. Проверка плавности сборки 45 на настоящем iPhone ещё предстоит. Обновление 44 ранее сохранило вход на iPhone 4s / iOS 6.1.3; в 45 сохранены прежние установщик, идентификатор и Keychain-доступ. Фоновая служба **0.1.0-25** не менялась. Обновляйтесь поверх текущей версии, не удаляя приложение.
+**Сначала обновитесь до 46 через Cydia, не удаляя приложение.** Проверки нового интерфейса в iOS 6 Simulator, ARMv7-сборка и изолированные тесты установщика пройдены. Настоящий цикл обновления из приложения и сохранение входа при нём ещё предстоит проверить на iPhone со следующей версией. Cydia остаётся доступным способом обновления. Background **0.1.0-25** не менялась; зацикленный предпросмотр стикеров из 45 сохранён.
 
 ## Что пока ограничено
 
@@ -158,7 +158,7 @@ Telegraphica is an unofficial Telegram client for **jailbroken iOS 6 / ARMv7** d
 4. Install **Telegraphica**, the full application. The companion installs automatically; no terminal or development Mac is needed.
 5. Open the app and sign in to your own Telegram account. For QR login, open Telegram on another device → Settings → Devices → Link Desktop Device, then scan the code displayed by Telegraphica.
 
-The [IPA](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-45/Telegraphica-0.1.0-beta1-build45-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
+The [IPA](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-46/Telegraphica-0.1.0-beta1-build46-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
 
 Do not delete an existing app before updating. The tested upgrade preserved login and dialogs; installation on other physical devices has not yet been checked. Real calls and proxy settings are not implemented, Music search has known issues, and background battery behavior remains experimental.
 
@@ -167,7 +167,7 @@ Do not delete an existing app before updating. The tested upgrade preserved logi
 <details>
 <summary><strong>Контрольные суммы и обратная связь</strong></summary>
 
-`SHA256SUMS` в [релизе](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-45) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
+`SHA256SUMS` в [релизе](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-46) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
 
 Чтобы сообщить о проблеме, укажите сборку, модель устройства, версию iOS, шаги воспроизведения и текст ошибки. Не отправляйте переписку, номера телефонов, коды входа или пароли.
 

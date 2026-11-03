@@ -1,6 +1,6 @@
 Package: com.michirose.telegraphica.ios
 Name: Telegraphica
-Version: 0.1.0~beta1-45
+Version: 0.1.0~beta1-46
 Architecture: iphoneos-arm
 Description: Telegraphica beta messenger for jailbroken iOS 6.
  Installs the complete application in a normal iOS application container.
@@ -9,12 +9,12 @@ Description: Telegraphica beta messenger for jailbroken iOS 6.
  Remove the app from the Home screen only if you intend to delete its data.
 Maintainer: Telegraphica
 Section: Networking
-Depends: firmware (>= 6.0), firmware (<< 7.0), net.angelxwind.appsyncunified, com.michirose.telegraphica.background (>= 0.1.0-25), coreutils, system-cmds
-Filename: ./telegraphica_0.1.0-beta1-45_iphoneos-arm.deb
-Size: 11100592
-SHA256: b6aafeb2f79655e0c5f5a03c11845ec4b5c15c80b4a9ba756af2dcf1997d364d
-SHA1: aad221175783a94858bdbb6c37f73b5c864db9d1
-MD5sum: ed6b0e70c85be521581253310309325d
+Depends: firmware (>= 6.0), firmware (<< 7.0), net.angelxwind.appsyncunified, com.michirose.telegraphica.background (>= 0.1.0-25), com.michirose.telegraphica.updater (>= 0.1.0-1), coreutils, system-cmds
+Filename: ./telegraphica_0.1.0-beta1-46_iphoneos-arm.deb
+Size: 11124390
+SHA256: 992b5af9ee447e0cb41e75beb997bd35c5d8606295df2b994e273abb43750a51
+SHA1: ec16ba4e4c8f03f6395ef7002a7e4e616e322786
+MD5sum: 72485d5a71bffe1311c1c9ba5b2866a5
 
 Package: com.michirose.telegraphica.background
 Name: Telegraphica Background
@@ -31,6 +31,22 @@ Size: 14808
 SHA256: 454afa0e7eb63f72148f34e7201a2384edb51a4c56681d9f2216e93ba94c5c9b
 SHA1: 44f15452f7a57c6dccb83bed1893787bdd0f640e
 MD5sum: 3fac073f2927464274af41d8b8da5d0b
+
+Package: com.michirose.telegraphica.updater
+Name: Telegraphica Updater
+Version: 0.1.0-1
+Architecture: iphoneos-arm
+Description: On-demand in-app updates for Telegraphica on jailbroken iOS 6.
+ Downloads only Telegraphica packages from its fixed HTTPS source.
+ Requires explicit download and installation confirmation in Telegraphica.
+Maintainer: Telegraphica
+Section: Utilities
+Depends: firmware (>= 6.0), firmware (<< 7.0), dpkg, system-cmds
+Filename: ./telegraphica-updater_0.1.0-1_iphoneos-arm.deb
+Size: 24160
+SHA256: e8f11f1fac79d5563f70c357cc407df0d7b1b1dc1e24c906508c0abaa58805ac
+SHA1: 94dd3e87334de9122906d51120edb0218d370189
+MD5sum: 0f6591c88bad67adbe54d74e4d2d2ca4
 
 Package: com.michirose.weather
 Name: Weather Fix (Alpha)
