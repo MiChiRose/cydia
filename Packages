@@ -56,15 +56,14 @@ MD5sum: 44b8f2f46c1f61817ea04b771a372af6
 
 Package: com.michirose.airpodsfix
 Name: AirPods Fix (Alpha)
-Version: 0.1.0~alpha3
+Version: 0.1.0~alpha3-1
 Architecture: iphoneos-arm
 Description: Experimental AirPods audio compatibility fix for iOS 6.1.3.
- Maintains the selected A2DP route and renews already-connected audio services.
+ Passive audio keep-warm recovery: no BTServer hooks or service-connect calls.
+ Fixes premature player shutdown while the audio queue is still starting.
+ Native SpringBoard notices include a user-operated Copy report button.
  Reboot using Cydia's finish button after installation or removal.
- Handles fragmented accessory reports and recovers interrupted audio sessions.
- Does not reconnect lost devices. No application or extra icon.
- Shows a rate-limited system alert for connection loss during playback.
- iPhone 4s/5 on iOS 6.1.3. AirPods Pro 3 playback verification pending.
+ iPhone 4s/5 on iOS 6.1.3. No application or extra icon; hardware testing pending.
 Maintainer: MiChiRose
 Author: Dane Bentley, MiChiRose
 Section: Tweaks
@@ -72,10 +71,10 @@ Depends: firmware (>= 6.1.3), firmware (<< 6.1.4), mobilesubstrate
 Conflicts: com.danebentley.ios6airpodsfix
 Depiction: https://michirose.github.io/cydia/depictions/airpods/
 Homepage: https://github.com/DaneBentley/ios6-airpods-fix
-Installed-Size: 369
-Filename: ./michirose-airpods_0.1.0~alpha3_iphoneos-arm.deb
-Size: 55004
-SHA256: 2a3e5712d32b29649346e5907bcc29f38259e62c50562cba9aaf73a1127e1bdc
-SHA1: e394ecbd42adb2e2a7a92c3b25f170f447ee9605
-MD5sum: efb002285ae786000e9c088e554c9c5e
+Installed-Size: 333
+Filename: ./michirose-airpods_0.1.0~alpha3-1_iphoneos-arm.deb
+Size: 52684
+SHA256: f0db518e6c5ccc2ca19304fb706458a5adcec58c67c9d62fcfb501cfa457c00a
+SHA1: 32adc0c08cfa757fa0561a88e70becb846665122
+MD5sum: 9ecdde1611afb4af8931d6fd7d75c8e1
 
