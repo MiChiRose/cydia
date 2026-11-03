@@ -1,5 +1,5 @@
 {
-  "build": "47",
+  "build": "48",
   "bundleID": "com.michirose.telegraphica.ios",
   "files": {
     "Icon-114.png": "fe35c96cdf4952e4ffa19b72738d31231e33521a3a28a8e83a8cc94b69b3c386",
@@ -10,10 +10,10 @@
     "Icon-brand-552661d3bc56-29.png": "a4e08eac852a30fe665834f7e24e438e97447b5bab98618cbc856b37874c99f6",
     "Icon-brand-552661d3bc56-57.png": "9d1ed849720e63c980dc25c2b4f318607b772dbc4d448f73cf59dbf4f1653d7b",
     "Icon-brand-552661d3bc56-58.png": "f8bdf21e9750eec6ab7a91c87acc6996a9dd4ad34d59ffd2c6efbd9fccc1a06c",
-    "Info.plist": "f40e8d82378bf44b469b1a2476d6956b06bc238eb6be198e0b889d331e458241",
+    "Info.plist": "e83dc79f48ce3b3c86b7e94e4b9061b41feb97e473fe2a9085011dba12673c7d",
     "MobileThemes.json": "a671b873b87524accd8131831b6648c5fa75902e0ed54b884019e5b18787053f",
     "PkgInfo": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
-    "Telegraphica-iOS": "b481ee110929b1389304e76eab919538233cbb0859d47db79ef25c29b77f5cdb",
+    "Telegraphica-iOS": "31968486959d21f2d223ea238bff3960040932edcef968c33719c97dbdd08f33",
     "TelegraphicaBackground": "c5e6b48323afd05aa7fc779c84307b1564676a143a5c878824ce5117bd6af1f8",
     "ThirdPartyNotices.txt": "48bf3927c9637b952c0189f1e6b9a8f1ae3c6cfef605cbccc589ae2d4784018d",
     "Vintage/archive.png": "db213d80daae057cfe3fc78d5f9f26d2a31d0ab24a7d4771b3e6e74c8d7a7d36",
@@ -115,14 +115,14 @@
     "Vintage/user@2x.png": "43f16bf26b949dae28861d5807a4846b17be2bd761f6841ea853f6fda36814b2",
     "Vintage/video.png": "cfaf43774ac2341a25eaf65b4284475799f702489c4c3b1c52245e298ed70da5",
     "Vintage/video@2x.png": "7321fef3d671f20fa93d6797d6b57f603c7e558d51504f33952a0fe21a5c3db2",
-    "_CodeSignature/CodeResources": "0e0902c874e082b7c8502d6fcf4cc54618ac41b15cfe5a800cedb8e4fe12b01c",
+    "_CodeSignature/CodeResources": "13698c7a07b01c96ea2a5d2d71508e27b0f7d74a97b0d87736e33263669ec51c",
     "libtdjson.dylib": "6105d0152ac127ae3bdd03a59829a28a75b634eeb076231fd72a59a4cc2f7478",
     "libtgmedia.dylib": "c92a90b7cc51a35282a0e422e8b989f71a61873fece210a20c935407915fdf4f",
     "libtgstickers.dylib": "63c1b464f9540bff4e3aa052bb73d03898dc146f85070a056cc1cbdca7a434d8"
   },
   "artifacts": {
-    "Telegraphica-0.1.0-beta1-build47-ios6-armv7.ipa": "2496f49668a6b4d516992ea4515101ad458bf1d2c2f6147f28f27e30cd71932a",
-    "telegraphica_0.1.0-beta1-47_iphoneos-arm.deb": "365a5aa31d35488a6a0156d2bdc33bd2c3346738f73e9606874d18b26ef5ebe0"
+    "Telegraphica-0.1.0-beta1-build48-ios6-armv7.ipa": "54d1f30d720b75ce457e72afee88d5e9bf66eb5537e56a810fb30352c3a29fe5",
+    "telegraphica_0.1.0-beta1-48_iphoneos-arm.deb": "4f5c3a4895f246e266fcd128e6d95ce4e2fc8e0dec6a9e8b8d163cc2a54e08bd"
   },
   "account_data": "not included; packaging reads compiler output only"
 }
