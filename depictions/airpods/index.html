@@ -47,16 +47,17 @@ a:focus{outline:2px solid #285f96;outline-offset:-3px}
 @media(min-width:600px){.page{padding-top:32px;padding-bottom:32px}}
 </style></head><body><div class="page" role="main">
 <div class="package"><img class="weather-icon" src="../../CydiaIcon.png" alt="" width="64" height="64"><h1><span>AirPods</span> Fix</h1><p class="byline">Экспериментальная версия</p></div>
-<div class="group"><div class="intro"><strong>Исправление звука AirPods</strong><p>Адаптация iOS 6 AirPods Fix от Dane Bentley: для тишины при смене трека и периодических отключений.</p></div><p class="quiet-feature">Без приложения и новой иконки</p></div>
+<div class="group"><div class="intro"><strong>Исправление звука AirPods</strong><p>Alpha 2 поддерживает выбранный Bluetooth-аудиовыход активным в паузах между треками. Без переписывания частоты и временных меток аудио.</p></div><p class="quiet-feature">Без приложения и новой иконки</p></div>
 <h2>Совместимость</h2><div class="group"><table class="facts"><tbody>
-<tr><th scope="row">Версия</th><td>0.1.0~alpha1-1</td></tr><tr><th scope="row">Система</th><td>iOS 6.1.3</td></tr><tr><th scope="row">iPhone 4s</th><td>Код BTServer сопоставлен</td></tr><tr><th scope="row">iPhone 5</th><td>Пока не подтверждён</td></tr><tr><th scope="row">Нужно</th><td>Jailbreak и Substrate</td></tr></tbody></table></div>
-<p class="note">Реальная работа с AirPods и телефонными звонками пока не проверена. Поддержка всех моделей и прошивок AirPods не гарантируется. На неизвестной сборке BTServer исправление отключается.</p>
+<tr><th scope="row">Версия</th><td>0.1.0~alpha2</td></tr><tr><th scope="row">Система</th><td>iOS 6.1.3</td></tr><tr><th scope="row">iPhone 4s</th><td>Целевое устройство</td></tr><tr><th scope="row">iPhone 5</th><td>Нужна проверка</td></tr><tr><th scope="row">Нужно</th><td>Jailbreak и Substrate</td></tr></tbody></table></div>
+<p class="note">В Alpha 1-1 получен отзыв о тишине после пропуска трека на iPhone 4s с AirPods Pro 3. Alpha 2 меняет способ защиты звука; проверка новой версии с этими наушниками ещё требуется. Исправление сообщений батареи сохранено только для проверенной сборки BTServer.</p>
 <h2>Установка и проверка</h2><div class="group"><ol class="instructions">
 <li><strong>Удалите оригинальный AirPods Fix</strong><p>Не устанавливайте два исправления одних и тех же функций одновременно.</p></li>
-<li><strong>Установите пакет в Cydia</strong><p>После установки перезагрузите iPhone вручную.</p></li>
-<li><strong>Проверьте переходы между песнями</strong><p>Затем паузу, перемотку и соединение в течение 5 минут. Отдельно проверьте обычный звонок.</p></li>
+<li><strong>Установите пакет в Cydia</strong><p>В конце установки нажмите кнопку перезагрузки. Это также выгрузит прежнее исправление из Bluetooth-службы.</p></li>
+<li><strong>Проверьте переходы между песнями</strong><p>Переключите 5–10 треков, проверьте паузу и продолжение. Оставьте музыку играть не менее 3 минут. Отдельно проверьте обычный звонок.</p></li>
 <li><strong>При сбоях</strong><p>Удалите пакет через Cydia и перезагрузите телефон.</p></li></ol></div>
-<h2>Ограничения</h2><p class="note">Сохранена исходная модель AAC: 44.1 кГц и 1024 сэмпла в пакете. Другие частоты и кодеки не проверены. Хук затрагивает Bluetooth AAC-поток, а не только наушники с именем AirPods. Современные настройки AirPods и окно сопряжения не добавляются.</p>
-<div class="group"><a class="link-row" href="../../michirose-airpods-source-0.1.0-alpha1-1.tar.gz">Исходники и лицензия<span class="chevron">›</span></a><a class="link-row" href="https://github.com/DaneBentley/ios6-airpods-fix">Оригинальный проект Dane Bentley<span class="chevron">›</span></a><a class="link-row" href="../../">Репозиторий MiChiRose<span class="chevron">›</span></a></div>
+<h2>Ограничения</h2><p class="note">Служебная тишина работает только при выбранном Bluetooth A2DP-выходе и останавливается при смене выхода, звонке или прерывании аудиосессии. Она применяется и к другим A2DP-устройствам, независимо от имени. Во время подключения возможен дополнительный расход батареи. Приложение и новая иконка не добавляются.</p>
+<p class="note">Диагностика: /var/mobile/Library/Logs/AirPodsFix.log — до 64 событий запуска и остановки, без имён устройств и содержимого музыки.</p>
+<div class="group"><a class="link-row" href="../../michirose-airpods-source-0.1.0-alpha2.tar.gz">Исходники и лицензия<span class="chevron">›</span></a><a class="link-row" href="https://github.com/DaneBentley/ios6-airpods-fix">Оригинальный проект Dane Bentley<span class="chevron">›</span></a><a class="link-row" href="../../">Репозиторий MiChiRose<span class="chevron">›</span></a></div>
 <div class="credits"><p>Основано на работе Dane Bentley · MIT</p><p>Независимая адаптация MiChiRose</p></div>
 </div></body></html>

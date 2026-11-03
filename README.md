@@ -181,10 +181,11 @@ Do not delete an existing app before updating. The tested upgrade preserved logi
 ## Доступные пакеты
 
 - **[AirPods Fix (Alpha)](https://michirose.github.io/cydia/depictions/airpods/)** —
-  экспериментальная адаптация исправления Dane Bentley для iOS 6.1.3.
-  Профиль BTServer сопоставлен с iPhone 4s; прослушивание AirPods и звонки пока
-  не проверены. iPhone 5 включит исправление только на идентичной сборке BTServer.
-  После установки или удаления нужна ручная перезагрузка.
+  экспериментальное исправление звука на iPhone 4s/5 / iOS 6.1.3.
+  Alpha 2 удерживает выбранный A2DP-выход потоком тишины между треками вместо
+  переписывания RTP-часов. Проверка новой версии с AirPods Pro 3 ещё требуется.
+  Сохранён узкий фикс сообщения батареи из работы Dane Bentley. Приложения и
+  новой иконки нет; после установки Cydia запрашивает перезагрузку.
 - **[Weather Fix (Alpha)](https://michirose.github.io/cydia/depictions/weather/)** —
   экспериментальное исправление штатной «Погоды» на iOS 6 с прямым доступом
   к Open-Meteo. Alpha 9 исправляет запуск обновления жестом вниз за название города и показывает подтверждённый результат. Непостоянная ошибка Weather Unavailable ещё исследуется.
