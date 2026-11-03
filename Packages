@@ -72,26 +72,26 @@ MD5sum: 44b8f2f46c1f61817ea04b771a372af6
 
 Package: com.michirose.airpodsfix
 Name: AirPods Fix (Alpha)
-Version: 0.1.0~alpha4
+Version: 0.1.0~alpha5
 Architecture: iphoneos-arm
-Description: Experimental AirPods audio compatibility fix for iOS 6.1.3.
- Re-selects the currently picked A2DP output when the playing track changes.
- Restarts stale protection players without deactivating the audio session.
- No speaker bounce, BTServer hooks or Bluetooth connect/disconnect calls.
- Native SpringBoard notices include a user-operated Copy report button.
+Description: Continuous silent audio protection for AirPods on iOS 6.1.3.
+ Starts immediately on Bluetooth connection and overlaps 60-second clips.
+ Follows the event-driven method documented by ASentientBot's iOS 6 Pods Hack.
+ Independently implemented code and embedded silence; no extra app or icon.
+ No forced session activation, route-selection commands or BTServer patches.
  Reboot using Cydia's finish button after installation or removal.
- iPhone 4s/5 on iOS 6.1.3. No application or extra icon; hardware testing pending.
+ Independent build: hardware verification on AirPods Pro 3 is still pending.
 Maintainer: MiChiRose
-Author: Dane Bentley, MiChiRose
+Author: MiChiRose
 Section: Tweaks
 Depends: firmware (>= 6.1.3), firmware (<< 6.1.4), mobilesubstrate
-Conflicts: com.danebentley.ios6airpodsfix
+Conflicts: com.danebentley.ios6airpodsfix, ios-6-pods-hack
 Depiction: https://michirose.github.io/cydia/depictions/airpods/
-Homepage: https://github.com/DaneBentley/ios6-airpods-fix
-Installed-Size: 335
-Filename: ./michirose-airpods_0.1.0~alpha4_iphoneos-arm.deb
-Size: 56826
-SHA256: 4b984940c9cbf82367aa2d3addd4c3f544f3b4e2cdb9b4897836336f647a250b
-SHA1: 8b36e180be55524c9b46a1a9eef1ee40d7f0c603
-MD5sum: ceb828d424b71a9196d1ae827ca7da6f
+Homepage: https://github.com/asentientbot/ios-6-pods-hack
+Installed-Size: 133
+Filename: ./michirose-airpods_0.1.0~alpha5_iphoneos-arm.deb
+Size: 38226
+SHA256: 33f30f2ed9e6f4f704474aa04194849740213b684ca90f662110c68b5d7c08da
+SHA1: 7a1909c34439f78e22e81f1667ab9fb94b294d1f
+MD5sum: 78f25a3941eba00ac4125344267a286d
 
