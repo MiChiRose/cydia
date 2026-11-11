@@ -95,3 +95,22 @@ SHA256: 33f30f2ed9e6f4f704474aa04194849740213b684ca90f662110c68b5d7c08da
 SHA1: 7a1909c34439f78e22e81f1667ab9fb94b294d1f
 MD5sum: 78f25a3941eba00ac4125344267a286d
 
+Package: com.michirose.cellulardata
+Name: Cellular Data in Settings
+Version: 0.1.0~beta1
+Architecture: iphoneos-arm
+Description: Adds a Cellular Data switch to the main connectivity group in Settings.
+ Uses the iOS system setting for mobile Internet. iPhone with iOS 6.1.3.
+ After installation, close Settings from the app switcher and open it again.
+Maintainer: MiChiRose
+Author: MiChiRose
+Section: Tweaks
+Depends: firmware (>= 6.1.3), firmware (<< 6.1.4), mobilesubstrate
+Homepage: https://michirose.github.io/cydia/
+Installed-Size: 37
+Filename: ./cellular-data-settings_0.1.0~beta1_iphoneos-arm.deb
+Size: 7588
+SHA256: 168b8660e8a0c6d1c1a750ea386caf427db844290fc262852759701b9d738062
+SHA1: 5ae4b85cb4e620d1a9fabfbac74ba26fd14229ce
+MD5sum: eea7851773ea899a46c1ab4044ea82b7
+

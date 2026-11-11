@@ -215,6 +215,11 @@ For build 46 or newer installed through Cydia, open **Settings → Updates → C
 
 ## Доступные пакеты
 
+- **Cellular Data in Settings** — переключатель «Сотовые данные» сразу под Bluetooth
+  на главном экране «Настроек» iPhone с iOS 6.1.3. После установки закройте
+  «Настройки» через меню недавних приложений и откройте снова.
+  [Исходники](cellular-data-settings-source-0.1.0-beta1.tar.gz).
+
 - **[AirPods Fix (Alpha)](https://michirose.github.io/cydia/depictions/airpods/)** —
   экспериментальное исправление звука на iPhone 4s/5 / iOS 6.1.3.
   Alpha 5 использует способ iOS 6 Pods Hack от ASentientBot: запуск встроенного

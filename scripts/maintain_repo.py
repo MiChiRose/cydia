@@ -10,6 +10,11 @@ import re
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
+SOURCE_STEMS = {
+    'com.michirose.weather': 'michirose-weather',
+    'com.michirose.airpodsfix': 'michirose-airpods',
+    'com.michirose.cellulardata': 'cellular-data-settings',
+}
 
 
 def maintain(prune=False):
@@ -26,9 +31,9 @@ def maintain(prune=False):
         for field, algorithm in [('SHA256', 'sha256'), ('SHA1', 'sha1'), ('MD5sum', 'md5')]:
             assert hashlib.new(algorithm, data).hexdigest() == entry[field], name
         keep.add(name)
-        if entry['Package'] in ('com.michirose.weather', 'com.michirose.airpodsfix'):
-            stem = 'weather' if entry['Package'].endswith('weather') else 'airpods'
-            source = f'michirose-{stem}-source-{entry["Version"].replace("~", "-")}.tar.gz'
+        stem = SOURCE_STEMS.get(entry['Package'])
+        if stem:
+            source = f'{stem}-source-{entry["Version"].replace("~", "-")}.tar.gz'
             assert (ROOT / source).is_file(), source
             keep.add(source)
     build = json.loads((ROOT / 'PACKAGE-CONTENTS.json').read_text())['build']
