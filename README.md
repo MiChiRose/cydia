@@ -22,7 +22,7 @@
 
 **Telegram в духе классического iPhone.** Фактурные темы, привычная переписка и новая жизнь любимого устройства.
 
-**Бета 1 · Сборка 48 · iOS 6 / ARMv7 · Jailbreak + AppSync**
+**Бета 1 · Сборка 49 · iOS 6 / ARMv7 · Jailbreak + AppSync**
 
 [Первая установка](#install-telegraphica) · [Обновление из приложения](#update-telegraphica) · [Что умеет приложение](#возможности) · [IPA и загрузки](#ipa-и-другие-загрузки)
 
@@ -58,7 +58,7 @@ https://michirose.github.io/cydia/
 
 **Telegraphica Background и Telegraphica Updater подтянутся автоматически:** первый отвечает за фоновые уведомления, второй — за обновления из приложения. Отдельная настройка служб не нужна. Выбирайте именно полное приложение **Telegraphica**.
 
-Текущая версия полного пакета — **0.1.0~beta1-48**, службы Background — **0.1.0-25**, установщика Updater — **0.1.0-1**.
+Текущая версия полного пакета — **0.1.0~beta1-49**, службы Background — **0.1.0-25**, установщика Updater — **0.1.0-1**.
 
 ### 4. Войдите в свой аккаунт
 
@@ -153,18 +153,20 @@ Telegraphica — неофициальный клиент Telegram. Это пер
 
 | Скачать | Для чего |
 | --- | --- |
-| **[IPA для iOS 6](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-48/Telegraphica-0.1.0-beta1-build48-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
-| **[Все файлы релиза](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-48)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
+| **[IPA для iOS 6](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-49/Telegraphica-0.1.0-beta1-build49-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
+| **[Все файлы релиза](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-49)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
 
 Загрузка IPA в Safari сама по себе **не устанавливает приложение**. IPA также не устанавливает фоновую службу и компонент обновлений автоматически: для полного комплекта используйте Cydia.
 
-## Что нового в сборке 48
+## Что нового в сборке 49
 
-- Окно обновления ждёт готовности стартового экрана и не накладывается на другие модальные окна.
-- После запуска установленной версии подтверждение больше не открывает отдельное окно поверх загрузки чатов. При временной потере связи со службой выполняются повторные попытки, без ошибочного требования заново установить приложение через Cydia.
-- Сохранены проверки при возвращении (не чаще раза в **2 минуты**), каждые **5 минут** при открытом приложении и ручная кнопка в **Настройки → Обновления**, где видно время последней успешной проверки.
+- После отправки текста клавиатура остаётся открытой. Сообщение сразу видно в диалоге с индикатором ожидания, пока можно писать следующее.
+- Ошибка отправки отмечается красным облачком и значком «!». Нажмите значок, чтобы повторить отправку или удалить локальное сообщение.
+- Через скрепку можно сразу сделать снимок. Снимок и фото из галереи показываются миниатюрой перед отправкой.
+- Во время записи видеокружка можно сменить камеру. Таймер и кнопка переключения расположены отдельно.
+- Черновики видны в списках чатов и тем. Темы форума сохраняют загруженные страницы, а выбор стикера восстанавливается после переподключения.
 
-Подробные шаги — в разделе **[«Обновление прямо из приложения»](#update-telegraphica)**. Владелец проверил переходы 46 → 47 → 48 на iPhone 4s / iOS 6.1.3: вход сохранился; после обновления до 48 вылет и ошибочное окно про Cydia не повторились в этой проверке. Идентификатор, Keychain-доступ и установщик сохранены. Cydia остаётся доступной для обновления.
+Шаги установки сборки 49 поверх текущей версии описаны в разделе [«Обновление прямо из приложения»](#update-telegraphica).
 
 ## Что пока ограничено
 
@@ -191,7 +193,7 @@ Telegraphica is an unofficial Telegram client for **jailbroken iOS 6 / ARMv7** d
 4. Install **Telegraphica**, the full application. The companion installs automatically; no terminal or development Mac is needed.
 5. Open the app and sign in to your own Telegram account. For QR login, open Telegram on another device → Settings → Devices → Link Desktop Device, then scan the code displayed by Telegraphica.
 
-The [IPA](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-48/Telegraphica-0.1.0-beta1-build48-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
+The [IPA](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-49/Telegraphica-0.1.0-beta1-build49-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
 
 For build 46 or newer installed through Cydia, open **Settings → Updates → Check for updates**, download, confirm **Install and Close**, wait a few seconds and reopen Telegraphica. Build 45 or earlier, or an IPA-only installation without Updater, first needs the full Cydia package. See the [in-app update guide](#update-telegraphica). Do not delete the existing app. The owner tested 46 → 47 → 48 on iPhone 4s / iOS 6.1.3 with login preserved. Real calls are not implemented, Music search has known issues, and background battery behavior remains experimental.
 
@@ -200,7 +202,7 @@ For build 46 or newer installed through Cydia, open **Settings → Updates → C
 <details>
 <summary><strong>Контрольные суммы и обратная связь</strong></summary>
 
-`SHA256SUMS` в [релизе](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-48) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
+`SHA256SUMS` в [релизе](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-49) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
 
 Чтобы сообщить о проблеме, укажите сборку, модель устройства, версию iOS, шаги воспроизведения и текст ошибки. Не отправляйте переписку, номера телефонов, коды входа или пароли.
 
