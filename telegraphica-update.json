@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "build": "49",
-  "version": "0.1.0~beta1-49",
+  "build": "50",
+  "version": "0.1.0~beta1-50",
   "bundleID": "com.michirose.telegraphica.ios",
   "updaterProtocol": 1,
   "packages": [
     {
       "package": "com.michirose.telegraphica.ios",
-      "version": "0.1.0~beta1-49",
-      "url": "https://michirose.github.io/cydia/telegraphica_0.1.0-beta1-49_iphoneos-arm.deb",
-      "sha256": "e62c7b861503da7588bfe9c643917ca4c4cb9e9f35f2f2065fab5758db6a2f1c",
-      "size": 11147498
+      "version": "0.1.0~beta1-50",
+      "url": "https://michirose.github.io/cydia/telegraphica_0.1.0-beta1-50_iphoneos-arm.deb",
+      "sha256": "5f668d0ef9d8d96574234adf742d95a587e15547e665cdd0438bffcc9ac9477f",
+      "size": 11168630
     },
     {
       "package": "com.michirose.telegraphica.background",
