@@ -22,7 +22,7 @@
 
 **Telegram в духе классического iPhone.** Фактурные темы, привычная переписка и новая жизнь любимого устройства.
 
-**Бета 1 · Сборка 51 · iOS 6 / ARMv7 · Jailbreak + AppSync**
+**Бета 1 · Сборка 53 · iOS 6 / ARMv7 · Jailbreak + AppSync**
 
 [Первая установка](#install-telegraphica) · [Обновление из приложения](#update-telegraphica) · [Что умеет приложение](#возможности) · [IPA и загрузки](#ipa-и-другие-загрузки)
 
@@ -58,7 +58,7 @@ https://michirose.github.io/cydia/
 
 **Telegraphica Background и Telegraphica Updater подтянутся автоматически:** первый отвечает за фоновые уведомления, второй — за обновления из приложения. Отдельная настройка служб не нужна. Выбирайте именно полное приложение **Telegraphica**.
 
-Текущая версия полного пакета — **0.1.0~beta1-51**, службы Background — **0.1.0-25**, установщика Updater — **0.1.0-1**.
+Текущая версия полного пакета — **0.1.0~beta1-53**, службы Background — **0.1.0-25**, установщика Updater — **0.1.0-1**.
 
 ### 4. Войдите в свой аккаунт
 
@@ -153,24 +153,24 @@ Telegraphica — неофициальный клиент Telegram. Это пер
 
 | Скачать | Для чего |
 | --- | --- |
-| **[IPA для iOS 6](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-51/Telegraphica-0.1.0-beta1-build51-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
-| **[Все файлы релиза](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-51)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
+| **[IPA для iOS 6](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-53/Telegraphica-0.1.0-beta1-build53-ios6-armv7.ipa)** | Для совместимого jailbreak-установщика IPA с AppSync. |
+| **[Все файлы релиза](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-53)** | Полный DEB, IPA, инструкция и контрольные суммы SHA-256. |
 
 Загрузка IPA в Safari сама по себе **не устанавливает приложение**. IPA также не устанавливает фоновую службу и компонент обновлений автоматически: для полного комплекта используйте Cydia.
 
-## Что нового в сборке 51
+## Что нового в сборке 53
 
-- Опросы и викторины: просмотр результатов, голосование, отзыв обычного голоса и создание через скрепку.
-- Удержание кнопки отправки текста открывает отправку без звука и по расписанию.
-- Скрепка → Отложенные сообщения: просмотр, удаление и отправка сейчас.
-- Полученные контакты и местоположения открываются отдельными карточками с копированием данных и переходом к диалогу или карте.
-- Данные опросов сохраняются в зашифрованной истории; число незавершённых запросов ограничено, скрытые запросы чтения освобождаются.
+- Обновлён Telegram-протокол: исправлено отображение ранее неподдерживаемых опросов, в том числе с несколькими ответами и добавляемыми участниками вариантами.
+- Варианты ответа доступны прямо в переписке; для нескольких ответов выбор подтверждается кнопкой голосования.
+- События опросов, закрепления и вступления в группу оформлены как системные строки с именем участника, без пузыря сообщения.
+- Кнопка ответов в обычной группе переводит к первому ответу в том же диалоге. Комментарии к постам канала в другой группе открываются отдельно.
+- При первом запуске создаётся локальная защитная копия базы перед переходом на новое ядро. Подготовка может занять некоторое время; приложение не удаляйте.
 
-Шаги установки сборки 51 поверх текущей версии описаны в разделе [«Обновление прямо из приложения»](#update-telegraphica).
+Обновляйтесь поверх текущей версии через приложение или Cydia. Из-за обновления формата базы не устанавливайте старую сборку поверх новой. Данные аккаунта остаются на устройстве.
 
 ## Что пока ограничено
 
-- Новые опросы и расписание прошли программные проверки и iOS 6 Simulator; проверка реальной отправки на устройстве ещё предстоит. Расписание пока только для текста. Карточки контактов и места предназначены для полученных сообщений.
+- Опросы с несколькими ответами и голосование подтверждены владельцем на iPhone 4s. Отправка по расписанию пока только для текста; её отдельная проверка на устройстве ещё предстоит. Карточки контактов и места предназначены для полученных сообщений.
 
 - Настоящие аудио- и видеозвонки ещё не реализованы.
 - Поиск музыки имеет известные проблемы; работоспособность конкретного прокси зависит от сервера и сети.
@@ -195,7 +195,7 @@ Telegraphica is an unofficial Telegram client for **jailbroken iOS 6 / ARMv7** d
 4. Install **Telegraphica**, the full application. The companion installs automatically; no terminal or development Mac is needed.
 5. Open the app and sign in to your own Telegram account. For QR login, open Telegram on another device → Settings → Devices → Link Desktop Device, then scan the code displayed by Telegraphica.
 
-The [IPA](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-51/Telegraphica-0.1.0-beta1-build51-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
+The [IPA](https://github.com/MiChiRose/cydia/releases/download/ios6-v0.1.0-beta1-53/Telegraphica-0.1.0-beta1-build53-ios6-armv7.ipa) requires a compatible jailbreak IPA installer with AppSync. Downloading it in Safari alone does not install it. Stock iOS is unsupported.
 
 For build 46 or newer installed through Cydia, open **Settings → Updates → Check for updates**, download, confirm **Install and Close**, wait a few seconds and reopen Telegraphica. Build 45 or earlier, or an IPA-only installation without Updater, first needs the full Cydia package. See the [in-app update guide](#update-telegraphica). Do not delete the existing app. The owner tested 46 → 47 → 48 on iPhone 4s / iOS 6.1.3 with login preserved. Real calls are not implemented, Music search has known issues, and background battery behavior remains experimental.
 
@@ -204,7 +204,7 @@ For build 46 or newer installed through Cydia, open **Settings → Updates → C
 <details>
 <summary><strong>Контрольные суммы и обратная связь</strong></summary>
 
-`SHA256SUMS` в [релизе](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-51) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
+`SHA256SUMS` в [релизе](https://github.com/MiChiRose/cydia/releases/tag/ios6-v0.1.0-beta1-53) проверяет установочные файлы. [SHA256SUMS источника](https://michirose.github.io/cydia/SHA256SUMS) относится к странице, индексам Cydia и сохранённым загрузкам. Индексы пока без отдельной подписи APT; используйте HTTPS без отключения проверки сертификатов.
 
 Чтобы сообщить о проблеме, укажите сборку, модель устройства, версию iOS, шаги воспроизведения и текст ошибки. Не отправляйте переписку, номера телефонов, коды входа или пароли.
 
