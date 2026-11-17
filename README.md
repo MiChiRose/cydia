@@ -1,12 +1,27 @@
 # MiChiRose — репозиторий Cydia
 
+<p align="center">
+  <img src="readme-assets/telegraphica-jim-cydia.png" width="960" alt="Теперь в Cydia: Telegraphica для iOS 6 и Jim (ICQ) для iOS 6 и iOS 9 — источник MiChiRose">
+</p>
+
+**Telegraphica и Jim (ICQ) теперь в одном источнике Cydia.**
+
+| Приложение | Что установить в Cydia | Совместимость и инструкция |
+| --- | --- | --- |
+| **Telegraphica — Telegram** | **Telegraphica** | [iOS 6 · установка](#install-telegraphica) |
+| **Jim — ICQ / Jimm.online** | **Jim (iOS 6)** или **Jim (iOS 9)** | [iOS 6.1.3–6.1.6 / iOS 9.x · установка](https://michirose.github.io/cydia/depictions/jim/) |
+
+Нужны jailbreak и совместимый AppSync Unified. Jim пока доступен как preview;
+ограничения и статус проверки указаны в его инструкции.
+
+
 Личный репозиторий приложений, твиков и утилит для iOS с jailbreak.
 В Cydia источник отображается как **MiChiRose**; совместимость и зависимости
 определяются отдельно для каждого пакета.
 
 **Адрес источника:** <https://michirose.github.io/cydia/>
 
-[Telegraphica для iOS 6](#telegraphica-ios6) · [Как установить](#install-telegraphica) · [Как обновить из приложения](#update-telegraphica) · [Другие пакеты](#other-packages)
+[Telegraphica для iOS 6](#telegraphica-ios6) · [Jim (ICQ)](https://michirose.github.io/cydia/depictions/jim/) · [Как установить](#install-telegraphica) · [Как обновить из приложения](#update-telegraphica) · [Другие пакеты](#other-packages)
 
 Если раньше был добавлен источник `/telegraphica-cydia/`, удалите старую запись
 из списка источников Cydia и добавьте новый адрес выше. Удалять установленные
