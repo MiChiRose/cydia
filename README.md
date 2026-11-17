@@ -21,7 +21,7 @@
 
 **Адрес источника:** <https://michirose.github.io/cydia/>
 
-[Telegraphica для iOS 6](#telegraphica-ios6) · [Jim (ICQ)](#jim-ios) · [Как установить](#install-telegraphica) · [Как обновить из приложения](#update-telegraphica) · [Другие пакеты](#other-packages)
+[Telegraphica для iOS 6](#telegraphica-ios6) · [Jim Classic (ICQ)](#jim-ios) · [Как установить](#install-telegraphica) · [Как обновить из приложения](#update-telegraphica) · [Другие пакеты](#other-packages)
 
 Если раньше был добавлен источник `/telegraphica-cydia/`, удалите старую запись
 из списка источников Cydia и добавьте новый адрес выше. Удалять установленные
@@ -230,7 +230,7 @@ For build 46 or newer installed through Cydia, open **Settings → Updates → C
 
 <a name="jim-ios"></a>
 
-# Jim — ICQ для iPhone
+# Jim Classic — ICQ для старых iPhone
 
 <p align="center">
   <img src="depictions/jim/icon.png" width="114" alt="Иконка Jim: цветок ICQ на белом фоне">
@@ -241,7 +241,7 @@ For build 46 or newer installed through Cydia, open **Settings → Updates → C
 
 **Сборка 8 · iOS 6.1.3–6.1.6 и iOS 9.x · ARMv7 · Jailbreak + AppSync**
 
-Jim — полноценное самостоятельное приложение для общения в сети **Jimm.online**.
+Jim Classic — полноценное самостоятельное приложение для общения в сети **Jimm.online**.
 Оно устанавливается на домашний экран и работает напрямую с сервисом, без
 браузерной оболочки. Это независимый клиент, а не официальное приложение ICQ.
 
@@ -383,7 +383,7 @@ Cydia не выполняет отдельную очистку истории �
 
 ## Доступные пакеты
 
-- **[Jim — ICQ для iPhone](#jim-ios)** — нативный клиент Jimm.online для iOS 6 и iOS 9: сообщения, история, контакты, фотографии, смайлики и X-статусы.
+- **[Jim Classic — ICQ для старых iPhone](#jim-ios)** — нативный клиент Jimm.online для iOS 6 и iOS 9: сообщения, история, контакты, фотографии, смайлики и X-статусы.
 
 - **Cellular Data in Settings** — переключатель «Сотовые данные» сразу под Bluetooth
   на главном экране «Настроек» iPhone с iOS 6.1.3. После установки закройте

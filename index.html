@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MiChiRose · Telegraphica для iOS 6</title>
+<title>MiChiRose · Telegraphica и Jim Classic для iPhone</title>
 <style>
 body{font:17px Helvetica,Arial,sans-serif;line-height:1.6;color:#25384b;background:#f3f0e9;margin:0}
 main{max-width:860px;margin:28px auto;padding:28px;background:#fff;border:1px solid #d8d5cc;border-radius:8px}
@@ -13,16 +13,46 @@ small,figcaption{color:#607080;font-size:14px}.render{display:block;width:100%;h
 .source{padding:14px;background:#edf3f8;border:1px solid #cbd7e2;border-radius:6px}.screens img{max-width:30%;height:auto;margin:0 1%}
 li{margin-bottom:10px}hr{border:0;border-top:1px solid #d8dfe5;margin:28px 0}
 @media(max-width:600px){main{margin:0;padding:18px;border:0;border-radius:0}body{font-size:16px}.screens img{max-width:96%;display:block;margin:16px auto}}
+
+.intro-title{font-size:34px;margin:10px 0 12px}.app-choices{display:table;width:100%;border-spacing:12px 0;margin:22px -12px;width:calc(100% + 24px);table-layout:fixed}.app-choice{display:table-cell;vertical-align:top;border:1px solid #cbd7e2;border-radius:10px;padding:20px;background:#f3f7fb}.app-choice.jim{background:#f1f6eb;border-color:#ccd9be}.app-choice img{width:64px;height:64px;border-radius:14px;display:block;margin-bottom:12px}.app-choice h2{font-size:24px;margin:0 0 8px}.app-choice p{font-size:15px;margin:8px 0 14px}.app-choice .button{min-height:24px}.jim .button{background:#4f733a;border-color:#3d5c2c}.jump-nav a{display:inline-block;padding:8px 10px 8px 0}.jim-screens img{max-width:43%;height:auto;margin:2%}.app-section{border-top:1px solid #d8dfe5;padding-top:22px;margin-top:32px}.app-section>h2{font-size:30px}.shared-banner{margin:28px 0}.shared-banner img{border-radius:8px}
+@media(max-width:600px){.intro-title{font-size:25px}.app-choices{border-spacing:8px 0;margin:16px -8px;width:calc(100% + 16px)}.app-choice{padding:12px}.app-choice img{width:48px;height:48px}.app-choice h2{font-size:18px;word-wrap:break-word}.app-choice p{font-size:13px;line-height:1.4}.app-choice .button{padding:10px 12px;font-size:14px}.app-section>h2{font-size:26px}}
 </style>
 </head>
 <body><main>
-<p><strong>MiChiRose — репозиторий Cydia</strong> · <a href="#install">Установка</a> · <a href="#other-packages">Другие пакеты</a></p>
-<h1>Telegraphica для iOS 6</h1>
+<p><strong>MiChiRose — репозиторий Cydia</strong></p>
+<h1 class="intro-title">Telegram и ICQ для старых iPhone</h1>
+<p>Два приложения в одном источнике. Выберите своё — и верните любимый iPhone в общение.</p>
+<div class="app-choices">
+<section class="app-choice"><img src="readme-assets/icon.png" width="64" height="64" alt="Иконка Telegraphica"><h2>Telegraphica</h2><p><strong>Telegram · iOS 6</strong></p><p>Чаты, группы, фотографии, файлы и голосовые сообщения.</p><a class="button" href="#install" aria-label="Установка Telegraphica">Установка</a></section>
+<section class="app-choice jim"><img src="depictions/jim/icon.png" width="64" height="64" alt="Иконка Jim Classic"><h2>Jim Classic</h2><p><strong>ICQ · iOS 6 и 9</strong></p><p>Jimm.online: переписка, фотографии, смайлики и X-статусы.</p><a class="button" href="#jim-install" aria-label="Установка Jim Classic">Установка</a></section>
+</div>
+<p>Нужны jailbreak и совместимый AppSync Unified.</p>
+<p><a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://michirose.github.io/cydia/">Добавить источник в Cydia</a></p>
+<p class="source">Адрес для ручного добавления:<br><code>https://michirose.github.io/cydia/</code></p>
+<nav class="jump-nav"><a href="#jim">Jim Classic</a> <a href="#telegraphica">Telegraphica</a> <a href="#other-packages">Другие пакеты</a></nav>
+<figure class="shared-banner"><img class="render" src="readme-assets/telegraphica-jim-cydia.png" width="1774" height="887" alt="Telegraphica и Jim (ICQ) доступны в источнике Cydia MiChiRose"></figure>
+<section class="app-section" id="jim">
+<h2>Jim Classic — ICQ для старых iPhone</h2>
+<p><strong>Сборка 8 · iOS 6.1.3–6.1.6 и iOS 9.x · ARMv7</strong></p>
+<p>Независимое нативное приложение для общения в Jimm.online. Привычный контакт-лист, цветок ICQ и темы ICQ, QIP и Jimm. Jim Classic предназначен для старых версий iOS и устанавливается через Cydia.</p>
+<h3>Возможности</h3>
+<ul><li>Сообщения, состояния отправки, цитаты, ссылки, локальная история и поиск.</li><li>Контакты и группы, избранные, переименование, перенос и блокировка.</li><li>Аватары, смайлики и X-статусы с подписью.</li><li>Фотографии из фототеки или камеры с предпросмотром; просмотр с увеличением.</li><li>Черновики, многострочный ввод, звуки, тихие чаты и восстановление соединения.</li></ul>
+<div class="jim-screens"><img src="depictions/jim/contacts.png" alt="Контакты и X-статусы Jim Classic"><img src="depictions/jim/photos.png" alt="Фотография и текстовый черновик в Jim Classic"></div>
+<p><small>Демонстрационные экраны, контакты и переписка вымышлены.</small></p>
+<h3 id="jim-install">Установка Jim Classic</h3>
+<ol><li>Добавьте источник MiChiRose по адресу выше. Если он уже добавлен для Telegraphica, обновите список пакетов.</li><li>В Cydia выберите <strong>Jim (iOS 6)</strong> для iOS 6.1.3–6.1.6 или <strong>Jim (iOS 9)</strong> для iOS 9.x. Нажмите «Установить → Подтвердить».</li><li>Откройте Jim на домашнем экране и войдите со своим UIN и паролем Jimm.online.</li></ol>
+<p>В JimmStore приложение называется <strong>Jim Classic</strong>; установочные пакеты в Cydia называются <strong>Jim (iOS 6)</strong> и <strong>Jim (iOS 9)</strong>.</p>
+<p>Для фотографии нажмите «+ → Фототека» или «Камера», проверьте снимок и получателя, затем отправьте. При первом использовании фотосервис может отдельно запросить пароль аккаунта на телефоне.</p>
+<p>Вход и текстовая переписка подтверждены на iPhone 4S / iOS 6.1.3. iOS 9, чистая установка из Cydia и живой обмен фотографиями ещё требуют проверки на устройстве. Фонового получения при закрытом приложении, голосовых сообщений, видео и звонков пока нет.</p>
+<p>Если Jim уже установлен через USB/IPA, сохраните эту копию и историю: перенос её данных в Cydia ещё не реализован, установщик остановится при обнаружении такой установки.</p>
+<p><a class="button" href="depictions/jim/">Подробнее о Jim Classic</a> <a href="https://github.com/MiChiRose/Jim-iOS/releases">Загрузки на GitHub</a></p>
+</section>
+<section class="app-section" id="telegraphica">
+<h2>Telegraphica для iOS 6</h2>
 <p>Telegram в духе классического iPhone: фактурные темы, привычная переписка и новая жизнь любимого устройства.</p>
 <p><strong>Бета 1 · Сборка 53 · iOS 6 / ARMv7 · Jailbreak + AppSync</strong></p>
 <figure><img class="render" src="readme-assets/telegraphica-ios6-chats.png" width="1254" height="1254" alt="Рендер чёрного iPhone 4s со списком чатов Telegraphica"><figcaption>Рендер с демонстрационным экраном. Имена и переписка вымышлены; личные данные не использовались.</figcaption></figure>
-<p><a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://michirose.github.io/cydia/">Добавить источник в Cydia</a></p>
-<p class="source">Адрес для ручного добавления:<br><code>https://michirose.github.io/cydia/</code></p>
+
 <h2 id="install">Как установить</h2>
 <p><strong>Всё делается на iPhone. Терминал и компьютер не нужны.</strong></p>
 <ol>
@@ -50,9 +80,8 @@ li{margin-bottom:10px}hr{border:0;border-top:1px solid #d8dfe5;margin:28px 0}
 <p>IPA требует совместимого jailbreak-установщика и AppSync. Загрузка в Safari сама по себе не устанавливает приложение; фоновая служба и компонент обновлений в IPA не устанавливаются автоматически. Для полного комплекта используйте Cydia.</p>
 <p><a href="INSTALLATION.txt">Текстовая инструкция</a> · <a href="SHA256SUMS">Контрольные суммы источника</a> · <a href="https://github.com/MiChiRose/cydia#telegraphica-ios6">README на GitHub</a></p>
 <p><small>В пакетах нет сессии, переписки, контактов, кэша и ключей базы. Каждый пользователь входит в свой аккаунт. Индексы пока без подписи APT. Исходники Telegraphica хранятся отдельно. Для отзыва укажите модель, версию iOS, сборку и шаги ошибки; коды входа, пароли и переписку не присылайте.</small></p>
+</section>
 <hr><h2 id="other-packages">Другие пакеты MiChiRose</h2>
-<h3>Jim — ICQ для iPhone</h3><p>Нативный клиент Jimm.online для iPhone: переписка, история и поиск, аватары, смайлики, X-статусы и фотографии. В Cydia доступны <strong>Jim (iOS 6)</strong> и <strong>Jim (iOS 9)</strong>.</p>
-<p>Нужны jailbreak и совместимый AppSync Unified. Переписка проверена на iPhone 4S / iOS 6.1.3; чистая установка Cydia, фотографии и iOS 9 ещё требуют проверки. Перенос данных из USB/IPA-установки в Cydia ещё не реализован.</p><p><a href="depictions/jim/">Возможности, установка и ограничения Jim</a></p>
 <h3>Weather Fix — Alpha 7</h3>
 <p><strong>Только исправление штатной «Погоды»:</strong> без дополнительного приложения и иконки. В Cydia выберите <strong>0.1.0~alpha7-1</strong>. Исправлена обработка сохранённого местоположения; проверка новой версии на телефоне продолжается.</p>
 <p>Open-Meteo напрямую, без своего сервера и API-ключа, с локальным современным TLS. Настройки GPS и список городов не меняются. Перед установкой удалите WeatherX; MapsX можно оставить.</p>
