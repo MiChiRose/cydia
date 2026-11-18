@@ -116,7 +116,7 @@ MD5sum: eea7851773ea899a46c1ab4044ea82b7
 
 Package: com.michirose.jim.ios6
 Name: Jim (iOS 6)
-Version: 0.1.0-9
+Version: 0.1.0-14
 Architecture: iphoneos-arm
 Section: Networking
 Priority: optional
@@ -127,23 +127,23 @@ Replaces: com.michirose.jim.ios9
 Homepage: https://michirose.github.io/cydia/depictions/jim/
 Depiction: https://michirose.github.io/cydia/depictions/jim/
 Icon: https://michirose.github.io/cydia/depictions/jim/icon.png
-Installed-Size: 799
-Description: Jim Classic: native Jimm.online messenger. Build 9.
- Compact messages, separate smiley sets, improved session recovery and diagnostics.
- History search, contacts, avatars, X-statuses and photos.
- iPhone 4S / iOS 6.1.3: messages, smileys and reconnection confirmed.
+Installed-Size: 864
+Description: Jim Classic: native Jimm.online messenger. Build 14.
+ Faster contacts and history, coalesced draft saving and 49 classic smileys.
+ Notification settings, muted chats, history search, avatars, X-statuses and photos.
+ iPhone 4S / iOS 6.1.3: draft persistence and faster contacts confirmed.
  Photos and iOS 9 need device feedback.
  No background notifications. Requires compatible AppSync Unified.
  Cydia updates preserve app data. USB/IPA migration is not supported.
-Filename: jim_0.1.0-9_ios6_iphoneos-arm.deb
-Size: 422008
-MD5sum: d50778da8e21901c6c6df68d4ba39a2a
-SHA1: 0cd8caa0374975a3acb3433787311e11976c59f9
-SHA256: fe796fc17038d07de619012a6b3bcf6dfe2e627a774d9e10ce05d3d68e5d8b1e
+Filename: jim_0.1.0-14_ios6_iphoneos-arm.deb
+Size: 455478
+MD5sum: 7b8932bf524303be53c18ee4be655db1
+SHA1: 2a16a59290f02400a0311808bffeab5816660972
+SHA256: 051da1c598e8bc4fd4c25e2a5c27c9b8576f564261c011376b7416d3bda4a856
 
 Package: com.michirose.jim.ios9
 Name: Jim (iOS 9)
-Version: 0.1.0-9
+Version: 0.1.0-14
 Architecture: iphoneos-arm
 Section: Networking
 Priority: optional
@@ -154,16 +154,16 @@ Replaces: com.michirose.jim.ios6
 Homepage: https://michirose.github.io/cydia/depictions/jim/
 Depiction: https://michirose.github.io/cydia/depictions/jim/
 Icon: https://michirose.github.io/cydia/depictions/jim/icon.png
-Installed-Size: 799
-Description: Jim Classic: native Jimm.online messenger. Build 9.
- Compact messages, separate smiley sets, improved session recovery and diagnostics.
- History search, contacts, avatars, X-statuses and photos.
- iPhone 4S / iOS 6.1.3: messages, smileys and reconnection confirmed.
+Installed-Size: 864
+Description: Jim Classic: native Jimm.online messenger. Build 14.
+ Faster contacts and history, coalesced draft saving and 49 classic smileys.
+ Notification settings, muted chats, history search, avatars, X-statuses and photos.
+ iPhone 4S / iOS 6.1.3: draft persistence and faster contacts confirmed.
  Photos and iOS 9 need device feedback.
  No background notifications. Requires compatible AppSync Unified.
  Cydia updates preserve app data. USB/IPA migration is not supported.
-Filename: jim_0.1.0-9_ios9_iphoneos-arm.deb
-Size: 422006
-MD5sum: 2e89d2633c3748d3251fc07712cbed0b
-SHA1: 7df7c65a6dde902319d1b4e461627e2cc5d0accb
-SHA256: a4bd4e8e0ed549fe33f82e05e062e7c3f6f014e904f3c4a6ee53204685b65b21
+Filename: jim_0.1.0-14_ios9_iphoneos-arm.deb
+Size: 455474
+MD5sum: d2b989d445e351b3ad73783ffb2de9e0
+SHA1: 06dda11d51ad184c5aa4cfb854f9b5b79c9f2b51
+SHA256: 78852b556c93fafcda656125a7bca89d4d084144c0f6a258c86af9ef57f14b61
