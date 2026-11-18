@@ -7,10 +7,10 @@ Architectures: iphoneos-arm
 Components: main
 Description: MiChiRose repository for iOS apps, tweaks and utilities
 MD5Sum:
- f2ecd9b77d5bad17e1452f2707e146e6 7781 Packages
- 3b28b13c24faccd363c0c578d8f8f7a7 2766 Packages.gz
- da00c69d292ecc767931af03ab7f5b56 2927 Packages.bz2
+ 88b7bda9e4ffe7838d839322114cc3b3 8422 Packages
+ 98529bc6c2d2b72e6908ba9ab7a5c9c1 2932 Packages.gz
+ 59c44b1cf1ee89f85b8d1b7260c58dcd 3058 Packages.bz2
 SHA256:
- 77fdcaaeb4dcf21edc872714094b1b381281459862ec47904317ce6517fa44ee 7781 Packages
- 43bfcc113e905cd517ee9683aaa958b167715d1b17d5e06069afcde68be2b1d5 2766 Packages.gz
- 9729f42057e116d62aa0eed216f177d326da6737280327fe6ebf70bc22892a99 2927 Packages.bz2
+ 6ae04127e08806a8d9b6ab5705a1f43bbf27e5747b3f170dbd59e87ad13d3101 8422 Packages
+ 7e1f7d70904b7ec6c384bcc8363cf4cddeef8be187a838823f5345313d392e4b 2932 Packages.gz
+ 175c716646a7e00f69e1a2ce4ddac92ca3658852eca1d539c75a004f0b7ec7ec 3058 Packages.bz2
