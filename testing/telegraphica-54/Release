@@ -1,0 +1,16 @@
+Origin: MiChiRose Telegraphica 54 Test
+Label: Telegraphica 54 Test
+Suite: stable
+Version: 0.1
+Codename: testing
+Architectures: iphoneos-arm
+Components: main
+Description: Isolated Cydia install test for Telegraphica 54
+MD5Sum:
+ f3326fe010e8ea7a261ac955187f11b7 2341 Packages
+ 87eade7f4610ae0b0f42c3a008b921b7 1026 Packages.gz
+ 727a528c831f5d529b712a0096f4532f 1119 Packages.bz2
+SHA256:
+ d42d68b94e1b0eda7f5256d4e3ba9e34d9c9393d9233ce1813663a73cd032826 2341 Packages
+ c354303c1ebe7457529bd925b356df21361bbdfacd7d4373ac3a0a2572e0e0a5 1026 Packages.gz
+ 3c4655f0b401d7a5e1c1c85f033a79bbb7ad1e8ab50e37ec0f5155f8a2befcb4 1119 Packages.bz2
