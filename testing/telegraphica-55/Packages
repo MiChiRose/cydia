@@ -1,0 +1,49 @@
+Package: com.michirose.telegraphica.ios
+Name: Telegraphica
+Version: 0.1.0~beta1-55
+Architecture: iphoneos-arm
+Description: Telegraphica Telegram client for jailbroken iOS 6–10.
+ Installs the complete application in a normal iOS application container.
+ Updates preserve account data. Requires compatible AppSync Unified.
+ Removing this installer package preserves the installed app and account data.
+ Remove the app from the Home screen only if you intend to delete its data.
+Maintainer: Telegraphica
+Section: Networking
+Depends: firmware (>= 6.0), firmware (<< 11.0), net.angelxwind.appsyncunified, com.michirose.telegraphica.background (>= 0.1.0-27), com.michirose.telegraphica.updater (>= 0.1.0-2), system-cmds
+Filename: ./telegraphica_0.1.0-beta1-55_iphoneos-arm.deb
+Size: 13894612
+SHA256: d88b3663a83bd85450917b2355b229265e89249ccb2c023ad36340f1aa96f910
+SHA1: b785390a1fdd8bebdedab3e85c109e6a33e9719c
+MD5sum: 9a5bc21ad3d8a887da091df14478dc19
+
+Package: com.michirose.telegraphica.background
+Name: Telegraphica Background
+Version: 0.1.0-27
+Architecture: iphoneos-arm
+Description: Background message reception for Telegraphica on jailbroken iOS 6–10.
+ Keeps only Telegraphica connected and starts its background service automatically.
+ Waits safely for the full Telegraphica installer when the app is not installed yet.
+Maintainer: Telegraphica
+Section: Utilities
+Depends: firmware (>= 6.0), firmware (<< 11.0), coreutils-bin, system-cmds
+Filename: ./telegraphica-background_0.1.0-27_iphoneos-arm.deb
+Size: 17526
+SHA256: 8d72e3bdcb47d22666c3bc27a19d1f9eb8d5b675dd5611c6488d0442a809e69e
+SHA1: 66c4fb6f0da0f6b04e186db79119af10c2144cb8
+MD5sum: 1ea6c74354f4cb484f5b2700bd04353e
+
+Package: com.michirose.telegraphica.updater
+Name: Telegraphica Updater
+Version: 0.1.0-2
+Architecture: iphoneos-arm
+Description: On-demand in-app updates for Telegraphica on jailbroken iOS 6–10.
+ Downloads only Telegraphica packages from its fixed HTTPS source.
+ Requires explicit download and installation confirmation in Telegraphica.
+Maintainer: Telegraphica
+Section: Utilities
+Depends: firmware (>= 6.0), firmware (<< 11.0), dpkg, system-cmds
+Filename: ./telegraphica-updater_0.1.0-2_iphoneos-arm.deb
+Size: 26478
+SHA256: 623c62969b6028192433e37f7fad6d407586d185dbc824066ac7c9279db00ff2
+SHA1: 8b236367a4bc75f113da5c18b277edbb978a08b5
+MD5sum: 06d65db607524b3cad7c04ceb04e84d7

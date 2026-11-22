@@ -1,0 +1,16 @@
+Origin: MiChiRose Telegraphica 55 Test
+Label: Telegraphica 55 Test
+Suite: stable
+Version: 0.1
+Codename: testing
+Architectures: iphoneos-arm
+Components: main
+Description: Isolated compatibility test for Telegraphica iOS 6-10
+MD5Sum:
+ d0f78b31723b27eb1e1ca9b734c88296 2359 Packages
+ ef4512bdc12c6905e1ebb30ae1352dc3 1039 Packages.gz
+ 934211b8401ef837ad4bcb2b37bd6ebb 1132 Packages.bz2
+SHA256:
+ a02c1c14b11665bb5fe96ef0cd7b9ae7d2fe046aeb101a69579840ba0a8f64c1 2359 Packages
+ e897f4931247dd5df825d4b3bec9c0282c6789eb2c51a86e0fbca5c7ffbd5943 1039 Packages.gz
+ 31af117a4e3cf4e3efc3a68da7f38fb52727214e9b5c3de38636eb181e865f37 1132 Packages.bz2
