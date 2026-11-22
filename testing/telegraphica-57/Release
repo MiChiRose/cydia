@@ -1,0 +1,16 @@
+Origin: MiChiRose Telegraphica 57 Test
+Label: Telegraphica 57 Test
+Suite: stable
+Version: 0.1
+Codename: testing
+Architectures: iphoneos-arm
+Components: main
+Description: Isolated Cydia install and upgrade test for Telegraphica 57
+MD5Sum:
+ 7d5329a1944e6775e0a6cbaa4b599e13 2360 Packages
+ 9f3735e06e09c83d32cb9998779284d3 1038 Packages.gz
+ 691f266611d9e7bb45d67d3b9dc06a7f 1134 Packages.bz2
+SHA256:
+ 3101b97961d0f79e03e23a923ead8e90f5357f8ed43f3958a232992d4be48e04 2360 Packages
+ 418543279e020a53c0b5b3b9839a39ad15b090cb76f0e40f3d24c27cf75a28f2 1038 Packages.gz
+ 88d727fe80593b8a6bea3838a7f2eafac003999dd16e561350a694dfeeab50c4 1134 Packages.bz2
