@@ -1,0 +1,16 @@
+Origin: MiChiRose Telegraphica 56 Upgrade Test
+Label: Telegraphica 56 Upgrade Test
+Suite: stable
+Version: 0.1
+Codename: testing
+Architectures: iphoneos-arm
+Components: main
+Description: Isolated Telegraphica upgrade test from build 55 to build 56
+MD5Sum:
+ af71672e2f5dad08771ecad20052ef91 2359 Packages
+ c8bd3d905e614eda83842fcf61a862f4 1038 Packages.gz
+ 89a133ccb3f7d4245437ed7df1a381d8 1128 Packages.bz2
+SHA256:
+ 7f41e5927059572d7d957e5c0025cf59c0a7cad7e666eca6374903c068448f55 2359 Packages
+ 798cee194f7c4975b05e1fff260d4ccb9a748aa2c891c978a8d4f56160506ab9 1038 Packages.gz
+ c8c3b58853a5b7ae356ff1468107bf554520276e4da09ced662720440fd71990 1128 Packages.bz2
