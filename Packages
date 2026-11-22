@@ -185,7 +185,7 @@ SHA256: a8a5a13617c60972780fcfe88dabb1aa1ebce10d128628f82a671f2ff7947f27
 
 Package: com.michirose.jim.ios5
 Name: Jim (iPad 1)
-Version: 0.1.0-18
+Version: 0.1.0-19
 Architecture: iphoneos-arm
 Section: Networking
 Priority: optional
@@ -196,15 +196,15 @@ Replaces: com.michirose.jim.ios6, com.michirose.jim.ios9
 Homepage: https://michirose.github.io/cydia/depictions/jim/
 Depiction: https://michirose.github.io/cydia/depictions/jim/
 Icon: https://michirose.github.io/cydia/depictions/jim/icon.png
-Installed-Size: 935
-Description: Jim Classic: native Jimm.online messenger. Build 18.
- Native portrait layout for the first-generation iPad on iOS 5.1.1. Updates through Cydia.
+Installed-Size: 938
+Description: Jim Classic: native Jimm.online messenger. Build 19.
+ Two-column layout in portrait and landscape on iPad 1 with iOS 5.1.1. Updates through Cydia.
  Notification settings, muted chats, history search, avatars, X-statuses and photos.
  iPad 1 device verification pending.
  No background notifications. Requires compatible AppSync Unified.
  Cydia updates preserve app data. USB/IPA migration is not supported.
-Filename: jim_0.1.0-18_ios5_iphoneos-arm.deb
-Size: 488954
-MD5sum: 3c779bee5a5111e2a56d5465fe4fe928
-SHA1: b9ffec52e6a6852bf64376ff1701d8e78ee64905
-SHA256: 82f65306fef955bf17d250053deb774538c5f822eeb666faafa4d40ae52ddc20
+Filename: jim_0.1.0-19_ios5_iphoneos-arm.deb
+Size: 491642
+MD5sum: fac48b949759e0a18196e33b6ac53d8f
+SHA1: 1231e4416bcae83cd75d339cecc4cd9a9e31a63e
+SHA256: a6ad837404a4b5d5b1c18ecbab3edb2f8896257d853d9962f5db5a9799747418
