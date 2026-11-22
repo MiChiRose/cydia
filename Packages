@@ -116,7 +116,7 @@ MD5sum: eea7851773ea899a46c1ab4044ea82b7
 
 Package: com.michirose.jim.ios6
 Name: Jim (iOS 6)
-Version: 0.1.0-17
+Version: 0.1.0-18
 Architecture: iphoneos-arm
 Section: Networking
 Priority: optional
@@ -127,23 +127,23 @@ Replaces: com.michirose.jim.ios9
 Homepage: https://michirose.github.io/cydia/depictions/jim/
 Depiction: https://michirose.github.io/cydia/depictions/jim/
 Icon: https://michirose.github.io/cydia/depictions/jim/icon.png
-Installed-Size: 905
-Description: Jim Classic: native Jimm.online messenger. Build 17.
- Check, download and install newer Jim builds from Settings.
+Installed-Size: 924
+Description: Jim Classic: native Jimm.online messenger. Build 18.
+ More accurate contact presence after reconnect. Updates available from Settings.
  Notification settings, muted chats, history search, avatars, X-statuses and photos.
  Faster reconnect and long chat opening confirmed on iPhone 4S / iOS 6.1.3.
  Photos and iOS 9 need device feedback.
  No background notifications. Requires compatible AppSync Unified.
  Cydia updates preserve app data. USB/IPA migration is not supported.
-Filename: jim_0.1.0-17_ios6_iphoneos-arm.deb
-Size: 470476
-MD5sum: d7a97a3ba684b917c8ead8e4910d0e44
-SHA1: 234ec638cd5b623c0f3a49521d741e24f4e1bdf3
-SHA256: 6cf64bd265767e379228adb36b42ffedeb94b2f64ec8950d72973bc5d8156151
+Filename: jim_0.1.0-18_ios6_iphoneos-arm.deb
+Size: 479204
+MD5sum: b67245dfb6f85b8f312238508f0360a5
+SHA1: 64e82fa9b9c7a9072da0149448c4e39731997aed
+SHA256: 329288a24ff3e695dfe6a57b4cf8037a3e14c401d8755a9c9d9e8a98a57ef41f
 
 Package: com.michirose.jim.ios9
 Name: Jim (iOS 9)
-Version: 0.1.0-17
+Version: 0.1.0-18
 Architecture: iphoneos-arm
 Section: Networking
 Priority: optional
@@ -154,19 +154,19 @@ Replaces: com.michirose.jim.ios6
 Homepage: https://michirose.github.io/cydia/depictions/jim/
 Depiction: https://michirose.github.io/cydia/depictions/jim/
 Icon: https://michirose.github.io/cydia/depictions/jim/icon.png
-Installed-Size: 905
-Description: Jim Classic: native Jimm.online messenger. Build 17.
- Check, download and install newer Jim builds from Settings.
+Installed-Size: 924
+Description: Jim Classic: native Jimm.online messenger. Build 18.
+ More accurate contact presence after reconnect. Updates available from Settings.
  Notification settings, muted chats, history search, avatars, X-statuses and photos.
  Faster reconnect and long chat opening confirmed on iPhone 4S / iOS 6.1.3.
  Photos and iOS 9 need device feedback.
  No background notifications. Requires compatible AppSync Unified.
  Cydia updates preserve app data. USB/IPA migration is not supported.
-Filename: jim_0.1.0-17_ios9_iphoneos-arm.deb
-Size: 470478
-MD5sum: 93c7012b3c3e26b78ba032b782851614
-SHA1: f2c535c0e58e256ead497a0a221af056d6e76a36
-SHA256: 1001b472ea1e961e175551a6afc0d230ba916a767671340992f343bcaf8c62c5
+Filename: jim_0.1.0-18_ios9_iphoneos-arm.deb
+Size: 479200
+MD5sum: bf03a3e14c43fbb65ef1a1a8b50a9d80
+SHA1: 7b46103c8deb96f3d262b42b90005b4c36b114a0
+SHA256: 3c7dd76b79113a635520b0371069b5c5297dfa36431dbded3210c608c26a9a1f
 
 Package: com.michirose.jim.updater
 Name: Jim Updater
@@ -182,3 +182,29 @@ Size: 23386
 MD5sum: 3a9fd156c90f118acb7f24c7a0d621f9
 SHA1: 97e31389d3f1202576b29772756fa40944172cb1
 SHA256: a8a5a13617c60972780fcfe88dabb1aa1ebce10d128628f82a671f2ff7947f27
+
+Package: com.michirose.jim.ios5
+Name: Jim (iPad 1)
+Version: 0.1.0-18
+Architecture: iphoneos-arm
+Section: Networking
+Priority: optional
+Maintainer: MiChiRose
+Depends: firmware (>= 5.1.1), firmware (<< 6.0), net.angelxwind.appsyncunified, uikittools
+Conflicts: com.michirose.jim.ios6, com.michirose.jim.ios9
+Replaces: com.michirose.jim.ios6, com.michirose.jim.ios9
+Homepage: https://michirose.github.io/cydia/depictions/jim/
+Depiction: https://michirose.github.io/cydia/depictions/jim/
+Icon: https://michirose.github.io/cydia/depictions/jim/icon.png
+Installed-Size: 935
+Description: Jim Classic: native Jimm.online messenger. Build 18.
+ Native portrait layout for the first-generation iPad on iOS 5.1.1. Updates through Cydia.
+ Notification settings, muted chats, history search, avatars, X-statuses and photos.
+ iPad 1 device verification pending.
+ No background notifications. Requires compatible AppSync Unified.
+ Cydia updates preserve app data. USB/IPA migration is not supported.
+Filename: jim_0.1.0-18_ios5_iphoneos-arm.deb
+Size: 488954
+MD5sum: 3c779bee5a5111e2a56d5465fe4fe928
+SHA1: b9ffec52e6a6852bf64376ff1701d8e78ee64905
+SHA256: 82f65306fef955bf17d250053deb774538c5f822eeb666faafa4d40ae52ddc20

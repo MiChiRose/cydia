@@ -1,23 +1,23 @@
 {
   "schema": 1,
-  "build": "17",
-  "version": "0.1.0-17",
+  "build": "18",
+  "version": "0.1.0-18",
   "bundleID": "com.michirose.jim.ios",
   "updaterProtocol": 1,
   "packages": [
     {
       "package": "com.michirose.jim.ios6",
-      "version": "0.1.0-17",
-      "url": "https://michirose.github.io/cydia/jim_0.1.0-17_ios6_iphoneos-arm.deb",
-      "sha256": "6cf64bd265767e379228adb36b42ffedeb94b2f64ec8950d72973bc5d8156151",
-      "size": 470476
+      "version": "0.1.0-18",
+      "url": "https://michirose.github.io/cydia/jim_0.1.0-18_ios6_iphoneos-arm.deb",
+      "sha256": "329288a24ff3e695dfe6a57b4cf8037a3e14c401d8755a9c9d9e8a98a57ef41f",
+      "size": 479204
     },
     {
       "package": "com.michirose.jim.ios9",
-      "version": "0.1.0-17",
-      "url": "https://michirose.github.io/cydia/jim_0.1.0-17_ios9_iphoneos-arm.deb",
-      "sha256": "1001b472ea1e961e175551a6afc0d230ba916a767671340992f343bcaf8c62c5",
-      "size": 470478
+      "version": "0.1.0-18",
+      "url": "https://michirose.github.io/cydia/jim_0.1.0-18_ios9_iphoneos-arm.deb",
+      "sha256": "3c7dd76b79113a635520b0371069b5c5297dfa36431dbded3210c608c26a9a1f",
+      "size": 479200
     }
   ]
 }
